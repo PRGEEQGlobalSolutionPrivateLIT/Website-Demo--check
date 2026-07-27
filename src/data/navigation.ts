@@ -16,7 +16,7 @@ export type NavItem =
 
 export const navItems: NavItem[] = [
   { type: "link", label: "Home", href: "/", active: true },
-  { type: "link", label: "genZgalaxy", href: "/GenZGalaxy" },
+  { type: "link", label: "genZgalaxy", href: "/genzgalaxy" },
   {
     type: "simple",
     label: "NeuroLXP 2.1",
