@@ -15,7 +15,6 @@ import { usePathname } from "next/navigation";
 import {
   navItems,
   type NestedCategory,
-  type PromoCard,
   type SimpleLink,
 } from "@/data/navigation";
 
