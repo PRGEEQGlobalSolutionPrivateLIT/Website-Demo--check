@@ -1,4370 +1,1426 @@
-.neurolabsCodingLabs {
-		width: 100%;
-		height: 4706px;
-		position: relative;
-		background-color: #dfe6e9;
-		overflow: hidden;
-		text-align: left;
-		font-size: 48px;
-		color: #31344b;
-		font-family: 'Segoe UI';
-	}
-
-	.arrowDown01Icon {
-		height: 16px;
-		width: 16px;
-		position: relative;
-	}
-
-	.frameDiv {
-		position: absolute;
-		top: 112px;
-		left: 80px;
-		display: flex;
-		align-items: center;
-		gap: 8px;
-		font-size: 16px;
-		color: #2f3547;
-	}
-	.neuroLabsWrapper {
-		display: flex;
-		align-items: center;
-	}
-	.arrowRightDoubleParent {
-		display: flex;
-		align-items: center;
-		gap: 8px;
-		color: #243fa8;
-	}
-	.codingLabs {
-		position: relative;
-		letter-spacing: 0.02em;
-		line-height: 24px;
-	}
-	.image20Parent {
-		position: absolute;
-		top: 168px;
-		left: calc(50% - 640px);
-		box-shadow: -8px -8px 16px #fff inset, 8px 8px 16px rgba(196, 196, 196, 0.8) inset;
-		border-radius: 32px;
-		background-color: #dfe6e9;
-		width: 1280px;
-		height: 614px;
-		overflow: hidden;
-		color: #fff;
-	}
-	.image20 {
-		position: absolute;
-		top: 0px;
-		left: calc(50% - 640px);
-		width: 1280px;
-		height: 800px;
-		flex-shrink: 0;
-	}
-	.image21Parent {
-		position: absolute;
-		top: 32px;
-		left: 32px;
-		box-shadow: 10px 10px 20px #c4c4c4, -10px -10px 20px rgba(255, 255, 255, 0.6);
-		border-radius: 16px;
-		background-color: #dfe6e9;
-		width: 1216px;
-		height: 550px;
-		overflow: hidden;
-		flex-shrink: 0;
-	}
-	.image21 {
-		position: absolute;
-		top: -1px;
-		left: 0px;
-		width: 1216px;
-		height: 737px;
-		flex-shrink: 0;
-	}
-	.groupYoungBusinesspeopleUsiIcon {
-		position: absolute;
-		top: calc(50% - 277px);
-		left: calc(50% - 608px);
-		width: 1216px;
-		height: 555px;
-		object-fit: cover;
-		flex-shrink: 0;
-	}
-	.ellipseParent {
-		position: absolute;
-		top: -118px;
-		left: -203px;
-		width: 808px;
-		height: 789px;
-		flex-shrink: 0;
-	}
-	.frameItem {
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		backdrop-filter: blur(8px);
-		border-radius: 50%;
-		background-color: rgba(47, 53, 71, 0.25);
-		width: 789px;
-		height: 789px;
-	}
-	.frameWrapper {
-		position: absolute;
-		top: calc(50% - 177.5px);
-		left: 253px;
-		width: 555px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-	}
-	.frameWrapper2 {
-		align-self: stretch;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-	}
-	.frameParent2 {
-		align-self: stretch;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 32px;
-	}
-	.frameParent3 {
-		width: 621px;
-		height: 200px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 32px;
-		flex-shrink: 0;
-	}
-	.frameInner {
-		width: 234.5px;
-		height: 50.2px;
-		position: relative;
-		border-radius: 28px;
-		object-fit: contain;
-	}
-	.practiceBuildAnd {
-		width: 497px;
-		height: 118px;
-		position: relative;
-		letter-spacing: 0.03em;
-		line-height: 60px;
-		display: inline-block;
-		flex-shrink: 0;
-	}
-	.practiceSolveChallenges {
-		width: 532px;
-		height: 120px;
-		position: relative;
-		font-size: 28px;
-		letter-spacing: 0.03em;
-		line-height: 36px;
-		display: inline-block;
-		flex-shrink: 0;
-	}
-	.frameParent4 {
-		position: absolute;
-		top: 878px;
-		left: 80px;
-		width: 1280px;
-		display: flex;
-		align-items: center;
-		gap: 68px;
-	}
-	.frameParent5 {
-		width: 654px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 32px;
-	}
-	.frameIcon {
-		width: 241.9px;
-		height: 50.2px;
-		position: relative;
-		border-radius: 28px;
-		object-fit: contain;
-	}
-	.masterCodingWith {
-		width: 578px;
-		position: relative;
-		letter-spacing: 0.03em;
-		line-height: 60px;
-		display: flex;
-		align-items: center;
-	}
-	.practiceProgrammingThrough {
-		width: 654px;
-		position: relative;
-		font-size: 28px;
-		letter-spacing: 0.03em;
-		line-height: 40px;
-		color: #2f3547;
-		display: inline-block;
-	}
-	.frameWrapper3 {
-		height: 460px;
-		width: 529px;
-		position: relative;
-		font-size: 28px;
-	}
-	.rectangleParent {
-		position: absolute;
-		top: 0px;
-		left: 29px;
-		width: 529px;
-		height: 460px;
-		flex-shrink: 0;
-	}
-	.rectangleDiv {
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c4c4c4;
-		border-radius: 32px;
-		background-color: #dfe6e9;
-		width: 529px;
-		height: 460px;
-	}
-	.frameChild2 {
-		position: absolute;
-		top: 32px;
-		left: 32px;
-		border-radius: 16px;
-		background-color: #f2afaa;
-		width: 465px;
-		height: 396px;
-		overflow: hidden;
-	}
-	.frameWrapper5 {
-		position: absolute;
-		top: calc(50% - 144px);
-		left: 50px;
-		width: 366px;
-		height: 289px;
-	}
-	.writeTestCodeParent {
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		width: 323px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 43px;
-	}
-	.writeTestContainer {
-		align-self: stretch;
-		position: relative;
-		letter-spacing: 0.03em;
-		line-height: 40px;
-		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-		flex-shrink: 0;
-	}
-	.writeTestCode {
-		margin: 0;
-		font-family: inherit;
-		font-size: inherit;
-		padding-left: 37px;
-		line-height: 40px;
-		list-style-type: disc;
-	}
-
-	.writeTest {
-		line-height: 40px;
-		color: #31344B;
-		text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
-	}
-
-	.writeTest::marker {
-		color: #31344B;
-		font-size: 18px;
-	}
-
-	.writeTest {
-		line-height: 40px;
-	}
-	.exploreCodingSolutionsContainer {
-		width: 366px;
-		position: relative;
-		letter-spacing: 0.03em;
-		line-height: 40px;
-		display: inline-block;
-		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-		flex-shrink: 0;
-	}
-	.buildPracticalProjectsContainer {
-		width: 347px;
-		position: relative;
-		letter-spacing: 0.03em;
-		line-height: 40px;
-		display: inline-block;
-		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-		flex-shrink: 0;
-	}
-	.image20Group {
-		position: absolute;
-		top: 1434px;
-		left: calc(50% - 640px);
-		box-shadow: -8px -8px 16px #fff inset, 8px 8px 16px rgba(196, 196, 196, 0.8) inset;
-		border-radius: 32px;
-		background-color: #dfe6e9;
-		width: 1280px;
-		height: 820px;
-		overflow: hidden;
-		text-align: center;
-	}
-	.image202 {
-		position: absolute;
-		top: 0px;
-		left: calc(50% - 640px);
-		width: 1280px;
-		height: 800px;
-	}
-	.frameParent7 {
-		position: absolute;
-		top: 50px;
-		left: 50px;
-		width: 1180px;
-		height: 720px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 64px;
-	}
-	.frameParent8 {
-		width: 944px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 32px;
-	}
-	.frameChild4 {
-		width: 285px;
-		height: 50px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background: #DFE6E9;
-		box-shadow: inset -4px -4px 8px #FFFFFF,
-				inset 4px 4px 8px rgba(196,196,196,0.8);
-		border-radius: 28px;
-		color: #2D4CC8;
-		font-family: 'Segoe UI';
-		font-size: 24px;
-		font-weight: 600;
-		letter-spacing: .03em;
-		text-transform: capitalize;
-	}
-	.interactiveCodingChallengesParent {
-		align-self: stretch;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 32px;
-	}
-	.interactiveCodingChallenges {
-		align-self: stretch;
-		position: relative;
-		letter-spacing: 0.03em;
-		line-height: 60px;
-		font-size: 48px;
-	}
-	.learnByBuilding {
-		width: 926px;
-		position: relative;
-		font-size: 28px;
-		letter-spacing: 0.03em;
-		line-height: 40px;
-		color: #2f3547;
-		display: inline-block;
-	}
-	.frameParent9 {
-		align-self: stretch;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 50px;
-		text-align: left;
-		font-size: 24px;
-	}
-	.frameParent10,
-	.frameParent11 {
-		align-self: stretch;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		gap: 20px;
-	}
-
-	.vectorParent,
-	.vectorGroup {
-		position: relative;
-		height: 196px;
-		width: 562px;
-		flex-shrink: 0;
-		overflow: hidden;
-		isolation: isolate;
-		background-color: #dfe6e9;
-		border-radius: 16px;
-		box-shadow: 10px 10px 20px #c4c4c4, -10px -10px 20px #fff;
-	}
-
-	.rectangleIcon,
-	.frameChild6 {
-		display: none;
-	}
-
-	.vectorParent::before,
-	.vectorGroup::before {
-		content: "";
-		position: absolute;
-		inset: 0;
-		z-index: 1;
-		clip-path: polygon(0 0, 55% 0, 100% 100%, 0 100%);
-	}
-
-	.frameParent10 .vectorParent::before { background: rgba(229, 162, 195, 0.45); }
-	.frameParent10 .vectorGroup::before  { background: rgba(108, 195, 198, 0.45); }
-	.frameParent11 .vectorParent::before { background: rgba(194, 156, 197, 0.55); }
-	.frameParent11 .vectorGroup::before  { background: rgba(156, 167, 210, 0.55); }
-
-	.applyConceptsParent,
-	.problemSolvingParent {
-		position: absolute;
-		top: 50%;
-		left: 32px;
-		transform: translateY(-50%);
-		width: 310px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 20px;
-		z-index: 3;
-	}
-	.applyConcepts,
-	.problemSolving,
-	.codeEfficiently,
-	.interviewReady {
-		position: relative;
-		line-height: 32px;
-		font-weight: 700;
-		font-size: 24px;
-		color: #31344b;
-	}
-	.applyCodingConcepts,
-	.improveLogicalThinking {
-		position: relative;
-		font-size: 20px;
-		line-height: 28px;
-		color: #2f3547;
-	}
-
-	.frameChild5,
-	.frameChild7 {
-		position: absolute;
-		top: 24px;
-		right: 32px;
-		width: 79px;
-		height: 80px;
-		z-index: 4;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border-radius: 50%;
-		background: #dfe6e9;
-		box-shadow: 8px 8px 16px #c6c6c9, -8px -8px 16px #fff;
-		object-fit: contain;
-		padding: 18px;
-		box-sizing: border-box;
-	}
-
-	.frameParent12 {
-		position: absolute;
-		top: 2374px;
-		left: calc(50% - 640px);
-		width: 1280px;
-		display: flex;
-		align-items: flex-start;
-		gap: 128px;
-		text-align: center;
-		font-size: 20px;
-	}
-	.frameParent13 {
-		height: 378px;
-		width: 502px;
-		position: relative;
-		flex-shrink: 0;
-	}
-	.frameWrapper6 {
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		box-shadow: -4px -4px 8px #fff inset, 4px 4px 8px rgba(196, 196, 196, 0.8) inset;
-		border-radius: 32px;
-		background-color: #dfe6e9;
-		border-right: 20px solid #2a7308;
-		box-sizing: border-box;
-		width: 430px;
-		height: 70px;
-		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		justify-content: center;
-		padding: 20px 14px;
-		isolation: isolate;
-	}
-	.checkmarkBadge01Parent {
-		margin: 0 !important;
-		position: absolute;
-		top: calc(50% - 18.03px);
-		left: 35.96px;
-		display: flex;
-		align-items: center;
-		gap: 14px;
-		transform:  rotate(-0.1deg);
-		transform-origin: 0 0;
-		z-index: 0;
-		flex-shrink: 0;
-	}
-	.checkmarkBadge01Icon {
-		height: 36px;
-		width: 36px;
-		position: relative;
-		transform:  rotate(0.1deg);
-	}
-	.writeCleanEfficient {
-		position: relative;
-		letter-spacing: 0.03em;
-		line-height: 28px;
-		font-weight: 600;
-	}
-	.frameWrapper7 {
-		position: absolute;
-		top: 103px;
-		right: 0px;
-		box-shadow: -4px -4px 8px #fff inset, 4px 4px 8px rgba(196, 196, 196, 0.8) inset;
-		border-radius: 32px;
-		background-color: #dfe6e9;
-		border-right: 20px solid #bf1869;
-		box-sizing: border-box;
-		width: 430px;
-		height: 70px;
-		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		justify-content: center;
-		padding: 20px 14px;
-		isolation: isolate;
-	}
-	.frameWrapper8 {
-		position: absolute;
-		top: 204.79px;
-		left: 0px;
-		box-shadow: -4px -4px 8px #fff inset, 4px 4px 8px rgba(196, 196, 196, 0.8) inset;
-		border-radius: 32px;
-		background-color: #dfe6e9;
-		border-right: 20px solid #67096e;
-		box-sizing: border-box;
-		width: 430px;
-		height: 70px;
-		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		justify-content: center;
-		padding: 20px 14px;
-		isolation: isolate;
-	}
-	.checkmarkBadge01Container {
-		margin: 0 !important;
-		position: absolute;
-		top: calc(50% - 17.81px);
-		left: 35.96px;
-		display: flex;
-		align-items: center;
-		gap: 14px;
-		transform:  rotate(-0.1deg);
-		transform-origin: 0 0;
-		z-index: 0;
-		flex-shrink: 0;
-	}
-	.frameWrapper9 {
-		position: absolute;
-		top: 307.18px;
-		right: 0px;
-		box-shadow: -4px -4px 8px #fff inset, 4px 4px 8px rgba(196, 196, 196, 0.8) inset;
-		border-radius: 32px;
-		background-color: #dfe6e9;
-		border-right: 20px solid #2d4cc8;
-		box-sizing: border-box;
-		width: 430px;
-		height: 70px;
-		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		justify-content: center;
-		padding: 20px 14px;
-		isolation: isolate;
-	}
-	.checkmarkBadge01Parent2 {
-		margin: 0 !important;
-		position: absolute;
-		top: calc(50% - 18.2px);
-		left: 35.96px;
-		display: flex;
-		align-items: center;
-		gap: 14px;
-		transform:  rotate(-0.1deg);
-		transform-origin: 0 0;
-		z-index: 0;
-		flex-shrink: 0;
-	}
-	.frameParent14 {
-		width: 654px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 32px;
-		flex-shrink: 0;
-		text-align: left;
-		font-size: 48px;
-	}
-	.frameParent15 {
-		width: 641px;
-		height: 203px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 32px;
-	}
-	.frameChild12 {
-		width: 210.7px;
-		height: 50.2px;
-		position: relative;
-		border-radius: 28px;
-		object-fit: contain;
-		flex-shrink: 0;
-	}
-	.realWorldSkillDevelopment {
-		align-self: stretch;
-		position: relative;
-		letter-spacing: 0.03em;
-		line-height: 60px;
-		flex-shrink: 0;
-	}
-	.codingLabsSimulate {
-		width: 654px;
-		height: 120px;
-		position: relative;
-		font-size: 28px;
-		letter-spacing: 0.03em;
-		line-height: 40px;
-		color: #2f3547;
-		display: inline-block;
-		flex-shrink: 0;
-	}
-	.frameParent16 {
-		position: absolute;
-		top: 2848px;
-		left: 80px;
-		width: 1280.1px;
-		height: 681.1px;
-	}
-	.frameParent17 {
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		display: flex;
-		align-items: center;
-		gap: 64px;
-	}
-	.frameParent18 {
-		width: 527px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 32px;
-	}
-	.frameChild13 {
-		width: 245.7px;
-		height: 50.2px;
-		position: relative;
-		border-radius: 28px;
-		object-fit: contain;
-		flex-shrink: 0;
-	}
-	.builtForEvery {
-		width: 533px;
-		position: relative;
-		letter-spacing: 0.03em;
-		line-height: 60px;
-		display: flex;
-		align-items: center;
-		flex-shrink: 0;
-	}
-	.perfectForUniversities {
-		width: 468px;
-		position: relative;
-		font-size: 28px;
-		letter-spacing: 0.03em;
-		line-height: 40px;
-		color: #2f3547;
-		display: inline-block;
-	}
-	.frameParent20 {
-		height: 670px;
-		width: 689px;
-		position: relative;
-	}
-	.frameWrapper10 {
-		position: absolute;
-		top: 161.57px;
-		left: 485px;
-		box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c6c6c9;
-		border-radius: 16px;
-		background-color: #dfe6e9;
-		width: 204px;
-		height: 222px;
-		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		padding: 36px;
-		box-sizing: border-box;
-		isolation: isolate;
-		flex-shrink: 0;
-	}
-	.frameChild14 {
-		width: 100%;
-		height: 190px;
-		margin: 0 !important;
-		position: absolute;
-		top: 16px;
-		left: 16px;
-		border-radius: 8px;
-		object-fit: contain;
-		z-index: 0;
-		flex-shrink: 0;
-	}
-	.frameWrapper11 {
-		position: absolute;
-		top: 105.57px;
-		left: 311px;
-		box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c6c6c9;
-		border-radius: 24px;
-		background-color: #dfe6e9;
-		width: 306px;
-		height: 328px;
-		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		padding: 36px;
-		box-sizing: border-box;
-		isolation: isolate;
-		flex-shrink: 0;
-	}
-	.frameChild15 {
-		width: 100%;
-		height: 280.2px;
-		margin: 0 !important;
-		position: absolute;
-		top: 24px;
-		left: 24px;
-		border-radius: 8px;
-		object-fit: contain;
-		z-index: 0;
-		flex-shrink: 0;
-	}
-	.frameWrapper12 {
-		position: absolute;
-		top: -6px;
-		left: 0px;
-		box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c6c6c9;
-		border-radius: 24px;
-		background-color: #dfe6e9;
-		width: 501px;
-		height: 551px;
-		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		padding: 36px;
-		box-sizing: border-box;
-		flex-shrink: 0;
-	}
-	.frameChild16 {
-		width: 100%;
-		height: 486.3px;
-		border-radius: 8px;
-		object-fit: contain;
-		flex-shrink: 0;
-	}
-	.frameParent21 {
-		position: absolute;
-		top: 601px;
-		left: 1090px;
-		width: 190.1px;
-		height: 80.1px;
-	}
-	.frameChild17 {
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		border-radius: 100px;
-		width: 80.1px;
-		height: 80.1px;
-		object-fit: contain;
-	}
-	.frameChild18 {
-		position: absolute;
-		top: 0px;
-		left: 110.05px;
-		border-radius: 100px;
-		width: 80.1px;
-		height: 80.1px;
-		object-fit: contain;
-	}
-	.rectangleGroup {
-		position: absolute;
-		top: 3625.06px;
-		left: calc(50% - 640px);
-		border-radius: 500px;
-		width: 1280px;
-		height: 505px;
-		overflow: hidden;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: top;
-		text-align: center;
-		font-size: 54px;
-	}
-	.rectangle {
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		width: 1280px;
-		height: 500px;
-		flex-shrink: 0;
-	}
-	.image203 {
-		position: absolute;
-		top: -561px;
-		left: calc(50% - 640px);
-		width: 1280px;
-		height: 800px;
-		flex-shrink: 0;
-	}
-	.frameParent22 {
-		position: absolute;
-		top: calc(50% - 188.5px);
-		left: calc(50% - 440px);
-		width: 881px;
-		height: 377px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 48px;
-		flex-shrink: 0;
-	}
-	.neurolabsCodingLabsLearnByParent {
-		align-self: stretch;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 36px;
-	}
-	.neurolabsCodingLabs2 {
-		width: 813px;
-		height: 149px;
-		position: relative;
-		letter-spacing: 0.03em;
-		line-height: 74px;
-		text-transform: capitalize;
-		display: inline-block;
-		flex-shrink: 0;
-	}
-	.buildRealWorldCoding {
-		width: 623px;
-		height: 80px;
-		position: relative;
-		font-size: 28px;
-		letter-spacing: 0.03em;
-		line-height: 40px;
-		color: #000;
-		display: inline-block;
-		flex-shrink: 0;
-	}
-	.frameParent23 {
-		display: flex;
-		align-items: center;
-		gap: 32px;
-		text-align: left;
-		font-size: 24px;
-		color: #2d4cc8;
-	}
-	.frameWrapper13 {
-		height: 64px;
-		width: 210px;
-		box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c6c6c9;
-		border-radius: 32px;
-		background-color: #dfe6e9;
-		overflow: hidden;
-		flex-shrink: 0;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 16px 32px;
-		box-sizing: border-box;
-	}
-	.bookADemoWrapper {
-		width: 140px;
-		display: flex;
-		align-items: center;
-	}
-	.bookADemo {
-		width: 152px;
-		position: relative;
-		line-height: 32px;
-		font-weight: 600;
-		display: flex;
-		align-items: center;
-		flex-shrink: 0;
-	}
-	.frameChild19 {
-		height: 64.2px;
-		width: 200.1px;
-		position: relative;
-		border-radius: 32px;
-		object-fit: contain;
-	}
-	.frameParent24,
-	.frameWrapper14 {
-		display: none !important;
-	}
-	.frameParent25 {
-		position: absolute;
-		bottom: 0px;
-		left: calc(50% - 720px);
-		box-shadow: -10px -10px 20px #fff inset, 8px 8px 16px #c4c4c4 inset;
-		background-color: #dfe6e9;
-		width: 1440px;
-		height: 459px;
-		overflow: hidden;
-	}
-	.frameParent26 {
-		position: absolute;
-		top: 49.81px;
-		left: 53.96px;
-		width: 1339.5px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 24px;
-	}
-	.frameParent27 {
-		align-self: stretch;
-		display: flex;
-		align-items: flex-start;
-		gap: 35px;
-	}
-	.frameParent28 {
-		width: 676px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 24px;
-		flex-shrink: 0;
-	}
-	.logo01SynapseSpark1Group {
-		width: 577px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 20px;
-	}
-	.logo01SynapseSpark1Icon2 {
-		width: 299px;
-		height: 112px;
-		position: relative;
-		object-fit: cover;
-		flex-shrink: 0;
-	}
-	.frameParent29 {
-		display: flex;
-		align-items: center;
-		gap: 14px;
-		flex-shrink: 0;
-	}
-	.onePlatformParent {
-		display: flex;
-		align-items: center;
-		gap: 10px;
-	}
-	.onePlatform {
-		position: relative;
-		letter-spacing: -0.03em;
-		line-height: 34px;
-		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	}
-	.sparklesIcon {
-		height: 23px;
-		width: 23px;
-		position: relative;
-	}
-	.prgeeqGlobalSolutionsPrivatParent {
-		width: 459px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 4px;
-		font-size: 16px;
-	}
-	.prgeeqGlobalSolutions {
-		align-self: stretch;
-		position: relative;
-		letter-spacing: 0.03em;
-		line-height: 24px;
-	}
-	.prestigeAtlanta1012Container {
-		align-self: stretch;
-		height: 77px;
-		position: relative;
-		line-height: 24px;
-		display: flex;
-		align-items: flex-end;
-		flex-shrink: 0;
-	}
-	.blankLine {
-		line-height: 24px;
-	}
-	.frameParent30,
-	.frameParent37 {
-		width: 631px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-end;
-		gap: 24px;
-		flex-shrink: 0;
-		font-size: 22px;
-		color: #2d4cc8;
-	}
-	.frameParent37 {
-		position: relative;
-		isolation: isolate;
-	}
-	.frameParent31,
-	.frameParent38 {
-		width: 619px;
-		display: flex;
-		align-items: flex-start;
-		gap: 32px;
-		flex-shrink: 0;
-	}
-	.frameParent38 {
-		z-index: 0;
-	}
-	.aboutUsParent {
-		width: 123px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 20px;
-	}
-	.aboutUs {
-		width: 93px;
-		position: relative;
-		letter-spacing: -0.03em;
-		line-height: 30px;
-		display: flex;
-		align-items: center;
-	}
-	.ourMissionParent,
-	.ourMissionGroup {
-		align-self: stretch;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 15px;
-		font-size: 20px;
-		color: #2f3547;
-	}
-	.ourMission {
-		align-self: stretch;
-		height: 26px;
-		position: relative;
-		letter-spacing: 0.03em;
-		line-height: 28px;
-		display: flex;
-		align-items: center;
-		flex-shrink: 0;
-	}
-	.quickLinksParent {
-		width: 207px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 20px;
-	}
-	.quickLinks {
-		align-self: stretch;
-		height: 26px;
-		position: relative;
-		letter-spacing: -0.03em;
-		line-height: 30px;
-		display: flex;
-		align-items: center;
-		flex-shrink: 0;
-	}
-	.neurolxpParent {
-		height: 181px;
-		width: 205px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 20px;
-	}
-	.neurolxp {
-		align-self: stretch;
-		height: 26px;
-		position: relative;
-		letter-spacing: -0.03em;
-		line-height: 30px;
-		display: flex;
-		white-space: pre-wrap;
-		align-items: center;
-		flex-shrink: 0;
-	}
-	.neurolxpGroup {
-		display: flex;
-		align-items: flex-start;
-		flex-shrink: 0;
-	}
-	.neurolxp2 {
-		height: 26px;
-		width: 103px;
-		position: relative;
-		letter-spacing: -0.03em;
-		line-height: 30px;
-		display: flex;
-		align-items: center;
-		flex-shrink: 0;
-	}
-	.neurolxpTxt {
-		width: 100%;
-		white-space: pre-wrap;
-	}
-	.neurolxp3 {
-		line-height: 30px;
-	}
-	.span {
-		font-size: 12px;
-		line-height: 30px;
-	}
-	.tm {
-		height: 17px;
-		width: 23px;
-		position: relative;
-		font-size: 12px;
-		letter-spacing: -0.03em;
-		line-height: 30px;
-		display: flex;
-		align-items: center;
-		flex-shrink: 0;
-	}
-	.ourCustomersGroup,
-	.ourCustomersContainer {
-		width: 221px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 15px;
-		flex-shrink: 0;
-		font-size: 20px;
-		color: #2f3547;
-	}
-	.smartContentCreation {
-		width: 229px;
-		height: 26px;
-		position: relative;
-		letter-spacing: 0.03em;
-		line-height: 28px;
-		display: flex;
-		align-items: center;
-		flex-shrink: 0;
-	}
-	.frameParent32,
-	.frameParent40 {
-		width: 392.4px;
-		height: 80.1px;
-		display: flex;
-		align-items: center;
-		gap: 24px;
-	}
-	.frameChild20,
-	.frameChild24 {
-		height: 80.1px;
-		width: 80.1px;
-		position: relative;
-		flex-shrink: 0;
-	}
-	.copyright2026 {
-		align-self: stretch;
-		height: 47px;
-		position: relative;
-		font-size: 16px;
-		letter-spacing: -0.03em;
-		line-height: 56px;
-		font-weight: 600;
-		color: #2d4cc8;
-		text-align: center;
-		display: inline-block;
-		flex-shrink: 0;
-	}
-	.frameChild29 {
-		position: absolute;
-		top: 0px;
-		left: calc(50% - 30.07px);
-		border-radius: 32px;
-		width: 59.1px;
-		height: 92px;
-		object-fit: contain;
-	}
-
-	.practiceBuildAnd,
-	.frameChild4,
-	.neurolabsCodingLabs2,
-	.realWorldSkillDevelopment,
-	.builtForEvery,
-	.bookADemo {
-		display: block !important;
-		visibility: visible !important;
-		opacity: 1 !important;
-		color: #31344b !important;
-		position: relative;
-		z-index: 50 !important;
-	}
-	.frameChild4 {
-		color: #2D4CC8 !important;
-	}
-
-	.frameWrapper,
-	.frameWrapper2,
-	.frameParent2,
-	.frameParent3,
-	.practiceBuildAnd,
-	.practiceSolveChallenges {
-		position: relative;
-		z-index: 20 !important;
-	}
-	.frameParent3 {
-		height: auto !important;
-		gap: 32px;
-	}
-	.practiceBuildAnd {
-		color: #ffffff !important;
-		width: 620px !important;
-		height: auto !important;
-		font-size: 48px;
-		line-height: 60px;
-		display: block !important;
-	}
-	.practiceSolveChallenges {
-		color: #ffffff !important;
-		width: 620px !important;
-		height: auto !important;
-		font-size: 28px;
-		line-height: 36px;
-	}
-
-	.frameChild12 {
-		display: flex !important;
-		align-items: center;
-		justify-content: center;
-		z-index: 20 !important;
-		position: relative;
-		background: #dfe6e9;
-		border-radius: 28px;
-		color: #2d4cc8;
-		font-size: 24px;
-		font-weight: 600;
-		box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c6c6c9;
-	}
-	.frameParent14,
-	.frameParent15 {
-		opacity: 1 !important;
-		visibility: visible !important;
-		overflow: visible !important;
-		height: auto !important;
-	}
-	.frameParent14 {
-		position: relative !important;
-		z-index: 20 !important;
-		gap: 32px !important;
-	}
-	.frameParent15 {
-		min-height: 203px;
-	}
-	.realWorldSkillDevelopment {
-		color: #31344b !important;
-		display: block !important;
-		height: auto !important;
-		line-height: 60px !important;
-		margin-top: -54px;
-		z-index: 20 !important;
-	}
-	.codingLabsSimulate {
-		color: #2f3547 !important;
-		display: block !important;
-		height: auto !important;
-		margin-top: -24px;
-		z-index: 20 !important;
-	}
-
-	.checkmarkBadge01Icon {
-		display: block !important;
-		visibility: visible !important;
-		opacity: 1 !important;
-		width: 36px !important;
-		height: 36px !important;
-		z-index: 5 !important;
-	}
-	.checkmarkBadge01Parent,
-	.checkmarkBadge01Container,
-	.checkmarkBadge01Parent2 {
-		z-index: 5 !important;
-		display: flex !important;
-		align-items: center !important;
-		gap: 14px !important;
-	}
-	.frameWrapper6,
-	.frameWrapper7,
-	.frameWrapper8,
-	.frameWrapper9,
-	.frameParent13 {
-		overflow: visible !important;
-	}
-	.writeCleanEfficient {
-		position: relative;
-		z-index: 5;
-	}
-
-	.flexibleLearningBadge {
-		width: 245px;
-		height: 50px;
-		border-radius: 28px;
-		background: #DFE6E9;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		color: #2D4CC8;
-		font-size: 24px;
-		font-weight: 600;
-		letter-spacing: .03em;
-		box-shadow:  inset -8px -8px 16px #FFFFFF, inset 8px 8px 16px #C6C6C9;
-		position: relative;
-		z-index: 10;
-		margin-top: -55px;
-		margin-bottom: -54px;
-	}
-
-	.sliderArrows {
-		position: absolute;
-		width: 190.11px;
-		height: 80.06px;
-		right: 80px;
-		bottom: -120px;
-		display: flex;
-		gap: 30px;
-		align-items: center;
-		z-index: 20;
-	}
-	.arrowButton {
-		position: relative;
-		width: 80px;
-		height: 80px;
-		border-radius: 100px;
-		border: none;
-		background: #DFE6E9;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		transform: rotate(0.05deg);
-		box-shadow: inset -4px -4px 8px #FFFFFF, inset 4px 4px 8px rgba(196,196,196,0.8);
-		cursor: pointer;
-	}
-	.arrowButton::before {
-		content: "";
-		position: absolute;
-		width: 60px;
-		height: 60px;
-		left: 10px;
-		top: 10px;
-		border-radius: 50%;
-		background: #DFE6E9;
-		box-shadow: 8px 8px 16px #C6C6C9, -8px -8px 16px #FFFFFF;
-	}
-	.arrowButton img {
-		position: relative;
-		width: 32px;
-		height: 32px;
-		object-fit: contain;
-		z-index: 2;
-	}
-
-	.learnByCodingBadge {
-		width: 241.89px;
-		height: 50px;
-		background: #DFE6E9;
-		border-radius: 28px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		font-family: "Segoe UI";
-		font-size: 24px;
-		font-weight: 600;
-		line-height: 32px;
-		letter-spacing: 0.03em;
-		color: #2D4CC8;
-		box-shadow: inset -4px -4px 8px #FFFFFF, inset 4px 4px 8px rgba(196,196,196,0.8);
-		position: relative;
-		z-index: 20;
-		flex-shrink: 0;
-		opacity: 1 !important;
-		visibility: visible !important;
-	}
-	.frameParent5,
-	.frameParent6 {
-		overflow: visible !important;
-	}
-
-	.neurolabsCodingLabs { height: 4100px; }
-	.frameParent { display: none !important; }
-	.frameDiv { top: 32px !important; }
-	.image20Parent { top: 88px !important; }
-	.frameParent4 { top: 798px !important; }
-	.frameParent16 { top: 2768px !important; }
-	.rectangleGroup { top: 3545px !important; }
-
-	.frameParent12 { height: 378px !important; gap: 128px !important; }
-	.frameParent13 { height: 378px !important; }
-	.frameParent14 { width: 654px !important; }
-	.frameParent15 { height: 203px !important; }
-	.codingLabsSimulate { margin-top: 0 !important; }
-	.frameParent17 { gap: 64px !important; }
-	.frameParent18 { gap: 32px !important; }
-
-	.ctaBackground {
-		position:absolute;
-		inset:0;
-		width:1280px;
-		height:505px;
-		object-fit:cover;
-		z-index:0;
-		border-radius:500px;
-	}
-
-	.frameParent22 {
-		position:absolute;
-		top:50%;
-		left:50%;
-		transform:translate(-50%,-50%);
-		z-index:5;
-	}
-
-	.frameParent23 {
-		display:flex;
-		align-items:center;
-		justify-content:center;
-		gap:32px;
-	}
-
-	.bookADemo {
-		display:flex;
-		align-items:center;
-		justify-content:center;
-		width:200px;
-		height:64px;
-		border-radius:32px;
-		background:#dfe6e9;
-		box-shadow:-8px -8px 16px #ffffff,
-				8px 8px 16px #c6c6c6;
-		font-size:24px;
-		font-weight:600;
-		color:#2d4cc8;
-		visibility:visible;
-		opacity:1;
-
-	}
-
-	.frameParent23 {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 32px;
-		text-align: center;
-		font-size: 24px;
-		color: #2D4CC8;
-	}
-
-	.frameWrapper13 {
-		height: 64px;
-		width: 210px;
-		border-radius: 32px;
-		background-color: #DFE6E9;
-		overflow: hidden;
-		flex-shrink: 0;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0 !important;
-		box-sizing: border-box;
-	}
-
-	.frameWrapper13:first-child {
-		box-shadow:
-			-8px -8px 16px #FFFFFF,
-			8px 8px 16px #C6C6C9;
-	}
-
-	.frameWrapper13:last-child {
-		box-shadow:
-			inset -4px -4px 8px #FFFFFF,
-			inset 4px 4px 8px rgba(196,196,196,0.8);
-	}
-
-	.bookADemoWrapper {
-		width: 100%;
-		height: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.bookADemo {
-		width: 100%;
-		height: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		text-align: center;
-		font-size: 24px;
-		font-weight: 600;
-		line-height: 32px;
-		color: #31344B;
-	}
-
-	.frameWrapper13:first-child .bookADemo {
-		color: #2D4CC8;
-	}
-
-	.frameChild19 {
-		display: none !important;
-	}
-
-	.frameParent23 {
-		display: flex !important;
-		align-items: center !important;
-		justify-content: center !important;
-		gap: 32px !important;
-	}
-
-	.frameWrapper13 {
-		width: 210px !important;
-		height: 64px !important;
-		padding: 0 !important;
-		display: flex !important;
-		align-items: center !important;
-		justify-content: center !important;
-		border-radius: 32px !important;
-		background: #DFE6E9 !important;
-		box-sizing: border-box !important;
-	}
-
-	.frameWrapper13:first-child {
-		box-shadow:
-			-8px -8px 16px #FFFFFF,
-			8px 8px 16px #C6C6C9 !important;
-	}
-
-	.frameWrapper13:last-child {
-		box-shadow:
-			inset -4px -4px 8px #FFFFFF,
-			inset 4px 4px 8px rgba(196,196,196,0.8) !important;
-	}
-
-	.bookADemo,
-	.bookADemoWrapper {
-		width: 100% !important;
-		height: 100% !important;
-		display: flex !important;
-		align-items: center !important;
-		justify-content: center !important;
-		text-align: center !important;
-	}
-
-	.bookADemo {
-		font-size: 24px !important;
-		font-weight: 600 !important;
-		line-height: 32px !important;
-		color: #31344B;
-	}
-
-	.frameWrapper13:first-child .bookADemo {
-		color: #2D4CC8 !important;
-	}
-
-	.codingMystery {
-		position: absolute;
-		top: 38px;
-		left: 48px;
-		width: 242px;
-		height: 50px;
-		border-radius: 28px;
-		background: #DFE6E9;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		font-size: 24px;
-		font-weight: 600;
-		line-height: 32px;
-		color: #2D4CC8;
-		letter-spacing: 0.03em;
-		box-shadow:
-			-8px -8px 16px #FFFFFF,
-			8px 8px 16px #C6C6C9;
-		z-index: 20;
-	}
-
-	.codingMystery {
-		position: absolute;
-		top: 38px;
-		left: 48px;
-
-		width: 242px;
-		height: 50px;
-
-		display: flex;
-		align-items: center;
-		justify-content: center;
-
-		border-radius: 28px;
-
-		background: #DFE6E9;
-
-		color: #2D4CC8;
-
-		font-family: "Segoe UI", sans-serif;
-		font-size: 24px;
-		font-weight: 600;
-		line-height: 32px;
-		letter-spacing: 0.03em;
-
-		box-shadow:
-			-8px -8px 16px rgba(255,255,255,0.9),
-			8px 8px 16px rgba(198,198,198,0.8);
-
-		z-index: 20;
-	}
-
-	.codingMystery span {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: 100%;
-	}
-	.codingMystery {
-		position: absolute !important;
-
-		top: 38px !important;
-		left: 48px !important;
-
-		width: 242px !important;
-		height: 50px !important;
-
-		display: flex !important;
-		align-items: center !important;
-		justify-content: center !important;
-
-		background: #DFE6E9 !important;
-
-		border-radius: 28px !important;
-
-		color: #2D4CC8 !important;
-
-		font-family: "Segoe UI", sans-serif !important;
-		font-size: 24px !important;
-		font-weight: 600 !important;
-
-		line-height: 32px !important;
-		letter-spacing: 0.03em !important;
-
-		box-shadow:
-			-8px -8px 16px rgba(255,255,255,0.9),
-			8px 8px 16px rgba(196,196,196,0.9) !important;
-
-		z-index: 50 !important;
-
-		padding: 0 !important;
-	}
-
-	.codingMystery,
-	.codingMystery * {
-		display: flex !important;
-		align-items: center !important;
-		justify-content: center !important;
-	}
-
-	.codingMysteryBadge {
-		position: relative !important;
-
-		width: 242px !important;
-		height: 50px !important;
-
-		display: flex !important;
-		align-items: center !important;
-		justify-content: center !important;
-
-		background: #DFE6E9 !important;
-
-		border-radius: 28px !important;
-
-		color: #2D4CC8 !important;
-
-		font-family: "Segoe UI", !important;
-		font-size: 24px !important;
-		font-weight: 600 !important;
-		line-height: 32px !important;
-
-		letter-spacing: 0.03em !important;
-
-		box-shadow:
-			inset -4px -4px 8px rgba(255,255,255,0.9),
-			inset 4px 4px 8px rgba(196,196,196,0.8) !important;
-
-		z-index: 30 !important;
-
-		box-sizing: border-box !important;
-	}
-	.YOUR_CLASS_NAME {
-		display: flex !important;
-		align-items: center !important;
-		justify-content: center !important;
-		text-align: center !important;
-		padding: 0 !important;
-	}
-
-	.frameWrapper12 .frameChild16 {
-		transition: transform 0.5s ease, opacity 0.5s ease;
-	}
-
-	.slideAnimation {
-		animation: imageSlide 0.5s ease;
-	}
-
-	@keyframes imageSlide {
-		from {
-			transform: translateX(80px);
-			opacity: 0;
-		}
-		to {
-			transform: translateX(0);
-			opacity: 1;
-		}
-	}
-
-	.frameParent16 {
-		top:2848px !important;
-		height:540px !important;
-	}
-
-	.frameParent20 {
-		height:530px !important;
-	}
-
-	.frameParent17 {
-		top:0px !important;
-	}
-
-	.frameChild4 {
-		display:flex !important;
-		align-items:center !important;
-		justify-content:center !important;
-		text-align:center !important;
-		padding:0 !important;
-		box-sizing:border-box;
-	}
-
-	.frameChild4 span {
-		display:flex !important;
-		align-items:center !important;
-		justify-content:center !important;
-		width:100% !important;
-		height:100% !important;
-		text-align:center !important;
-	}
-
-	.frameWrapper10,
-	.frameWrapper11,
-	.frameWrapper12 {
-		transition:
-			transform 0.5s ease,
-			opacity 0.5s ease;
-	}
-
-	.activeSlide {
-		z-index:5;
-	}
-
-	.slideAnimation {
-		animation:imageSwap 0.5s ease;
-	}
-
-	@keyframes imageSwap {
-
-		from {
-			opacity:0;
-			transform:translateX(40px);
-		}
-
-		to {
-			opacity:1;
-			transform:translateX(0);
-		}
-
-	}
-	.frameChild14,
-	.frameChild15,
-	.frameChild16 {
-		width:100%;
-		height:100%;
-		object-fit:cover;
-		display:block;
-		border-radius:8px;
-	}
-
-	.frameWrapper10,
-	.frameWrapper11,
-	.frameWrapper12 {
-
-		transition:
-		transform .6s ease,
-		opacity .6s ease;
-
-	}
-
-	.frameWrapper12 {
-
-		z-index:5;
-
-	}
-
-	.frameWrapper11 {
-
-		z-index:3;
-
-	}
-
-	.frameWrapper10 {
-
-		z-index:1;
-
-	}
-
-	.vectorParent,
-	.vectorGroup {
-		transition: transform 0.3s ease, box-shadow 0.3s ease;
-		cursor: pointer;
-	}
-
-	.vectorParent:hover,
-	.vectorGroup:hover {
-
-		transform: translateY(-8px);
-
-		box-shadow:
-			-8px -8px 16px #FFFFFF,
-			8px 12px 24px rgba(0,0,0,0.20);
-
-	}
-
-	.frameWrapper6,
-	.frameWrapper7,
-	.frameWrapper8,
-	.frameWrapper9 {
-		transition: transform 0.3s ease, box-shadow 0.3s ease;
-		cursor: pointer;
-	}
-
-	.frameWrapper6:hover,
-	.frameWrapper7:hover,
-	.frameWrapper8:hover,
-	.frameWrapper9:hover {
-
-		transform: translateY(-8px);
-
-		box-shadow:
-			-8px -8px 16px #FFFFFF,
-			8px 12px 24px rgba(0,0,0,0.20);
-
-	}
-
-	.getStartedButton {
-
-		box-shadow:
-			inset 4px 4px 8px #C4C4C4,
-			inset -4px -4px 8px #FFFFFF;
-
-	}
-	.frameWrapper10,
-	.frameWrapper11,
-	.frameWrapper12 {
-
-		transition:
-		transform .0s ease,
-		opacity .0s ease;
-
-	}
-
-	@media (max-width: 1024px) {
-
-		.neurolabsCodingLabs {
-			height: auto !important;
-			min-height: 100vh;
-			overflow: visible !important;
-			padding: 0 0 60px;
-			box-sizing: border-box;
-		}
-
-		.frameDiv {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			padding: 20px 20px 0;
-			font-size: 14px;
-		}
-
-		.image20Parent {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			width: calc(100% - 32px) !important;
-			max-width: 100%;
-			height: auto !important;
-			min-height: 480px;
-			margin: 20px auto 0;
-		}
-
-		.image20 {
-			position: absolute !important;
-			left: 0 !important;
-			width: 100% !important;
-			height: 100% !important;
-		}
-
-		.image21Parent {
-			width: calc(100% - 32px) !important;
-			height: auto !important;
-			min-height: 420px;
-			left: 16px !important;
-			top: 16px !important;
-		}
-
-		.image21,
-		.groupYoungBusinesspeopleUsiIcon {
-			width: 100% !important;
-			height: 100% !important;
-			left: 0 !important;
-			top: 0 !important;
-			object-fit: cover;
-		}
-
-		.ellipseParent,
-		.frameItem {
-			width: 100% !important;
-			height: 100% !important;
-			left: 0 !important;
-			top: 0 !important;
-		}
-
-		.frameWrapper {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			width: 100% !important;
-			padding: 32px 24px;
-			box-sizing: border-box;
-			z-index: 2;
-		}
-
-		.frameParent3 {
-			width: 100% !important;
-		}
-
-		.practiceBuildAnd,
-		.practiceSolveChallenges {
-			width: 100% !important;
-		}
-
-		.practiceBuildAnd {
-			font-size: clamp(28px, 6vw, 40px) !important;
-			line-height: 1.25 !important;
-		}
-
-		.practiceSolveChallenges {
-			font-size: clamp(16px, 3.4vw, 20px) !important;
-			line-height: 1.4 !important;
-		}
-
-		.frameParent4 {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			width: calc(100% - 32px) !important;
-			height: auto !important;
-			margin: 48px auto 0;
-			flex-direction: column;
-			gap: 40px;
-		}
-
-		.frameParent5 {
-			width: 100% !important;
-		}
-
-		.masterCodingWith {
-			width: 100% !important;
-			font-size: clamp(26px, 5.5vw, 38px) !important;
-			line-height: 1.25 !important;
-		}
-
-		.practiceProgrammingThrough {
-			width: 100% !important;
-			font-size: clamp(16px, 3.2vw, 20px) !important;
-			line-height: 1.4 !important;
-		}
-
-		.frameWrapper3 {
-			width: 100% !important;
-			max-width: 460px;
-			height: auto !important;
-			margin: 0 auto;
-		}
-
-		.rectangleParent {
-			position: relative !important;
-			width: 100% !important;
-			height: auto !important;
-			min-height: 380px;
-			left: auto !important;
-			top: auto !important;
-		}
-
-		.rectangleDiv {
-			width: 100% !important;
-			height: 100% !important;
-		}
-
-		.frameChild2 {
-			width: calc(100% - 64px) !important;
-			height: calc(100% - 64px) !important;
-		}
-
-		.frameWrapper5 {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			width: 90% !important;
-			margin: 32px auto;
-		}
-
-		.writeTestCodeParent {
-			width: 100% !important;
-		}
-
-		.exploreCodingSolutionsContainer,
-		.buildPracticalProjectsContainer {
-			width: 100% !important;
-		}
-
-		.image20Group {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			width: calc(100% - 32px) !important;
-			height: auto !important;
-			margin: 48px auto 0;
-		}
-
-		.image202 {
-			width: 100% !important;
-			height: 100% !important;
-			left: 0 !important;
-		}
-
-		.frameParent7 {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			width: 100% !important;
-			height: auto !important;
-			padding: 40px 24px;
-			box-sizing: border-box;
-			gap: 40px;
-		}
-
-		.frameParent8 {
-			width: 100% !important;
-		}
-
-		.interactiveCodingChallenges {
-			font-size: clamp(26px, 5.5vw, 38px) !important;
-		}
-
-		.learnByBuilding {
-			width: 100% !important;
-			font-size: clamp(16px, 3.2vw, 20px) !important;
-			line-height: 1.4 !important;
-		}
-
-		.frameParent9 {
-			gap: 24px;
-		}
-
-		.frameParent10,
-		.frameParent11 {
-			flex-direction: column;
-			gap: 24px;
-		}
-
-		.vectorParent,
-		.vectorGroup {
-			width: 100% !important;
-			max-width: 460px;
-			height: auto !important;
-			min-height: 180px;
-			margin: 0 auto;
-		}
-
-		.applyConceptsParent,
-		.problemSolvingParent {
-			width: calc(100% - 120px) !important;
-		}
-
-		.frameParent12 {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			width: calc(100% - 32px) !important;
-			height: auto !important;
-			margin: 48px auto 0;
-			flex-direction: column;
-			gap: 40px;
-			align-items: center;
-		}
-
-		.frameParent13 {
-			width: 100% !important;
-			max-width: 460px;
-			height: auto !important;
-			display: flex;
-			flex-direction: column;
-			gap: 16px;
-		}
-
-		.frameWrapper6,
-		.frameWrapper7,
-		.frameWrapper8,
-		.frameWrapper9 {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			right: auto !important;
-			width: 100% !important;
-		}
-
-		.frameParent14 {
-			width: 100% !important;
-		}
-
-		.realWorldSkillDevelopment {
-			font-size: clamp(26px, 5.5vw, 38px) !important;
-		}
-
-		.codingLabsSimulate {
-			width: 100% !important;
-			font-size: clamp(16px, 3.2vw, 20px) !important;
-		}
-
-		.frameParent16 {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			width: calc(100% - 32px) !important;
-			height: auto !important;
-			margin: 48px auto 0;
-		}
-
-		.frameParent17 {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			flex-direction: column;
-			gap: 40px;
-		}
-
-		.frameParent18 {
-			width: 100% !important;
-		}
-
-		.builtForEvery {
-			width: 100% !important;
-			font-size: clamp(26px, 5.5vw, 38px) !important;
-		}
-
-		.perfectForUniversities {
-			width: 100% !important;
-			font-size: clamp(16px, 3.2vw, 20px) !important;
-		}
-
-		.frameParent20 {
-			width: 100% !important;
-			max-width: 460px;
-			height: auto !important;
-			min-height: 420px;
-			margin: 0 auto;
-		}
-
-		.frameWrapper10,
-		.frameWrapper11,
-		.frameWrapper12 {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			width: 100% !important;
-			height: auto !important;
-			min-height: 220px;
-			margin: 0 0 20px;
-		}
-
-		.frameChild14,
-		.frameChild15,
-		.frameChild16 {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			width: 100% !important;
-			height: 220px !important;
-		}
-
-		.frameParent21 {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			width: auto !important;
-			margin: 16px auto 0;
-			display: flex;
-			justify-content: center;
-		}
-
-		.rectangleGroup {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			width: calc(100% - 32px) !important;
-			height: auto !important;
-			min-height: 420px;
-			border-radius: 40px !important;
-			margin: 48px auto 0;
-		}
-
-		.rectangle,
-		.image203,
-		.ctaBackground {
-			width: 100% !important;
-			height: 100% !important;
-			left: 0 !important;
-			top: 0 !important;
-		}
-
-		.frameParent22 {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			transform: none !important;
-			width: 100% !important;
-			height: auto !important;
-			padding: 48px 24px;
-			box-sizing: border-box;
-		}
-
-		.neurolabsCodingLabs2 {
-			width: 100% !important;
-			height: auto !important;
-			font-size: clamp(28px, 6.5vw, 42px) !important;
-			line-height: 1.25 !important;
-		}
-
-		.buildRealWorldCoding {
-			width: 100% !important;
-			height: auto !important;
-			font-size: clamp(16px, 3.2vw, 20px) !important;
-		}
-
-		.frameParent23 {
-			flex-wrap: wrap;
-		}
-
-		.sliderArrows {
-			position: relative !important;
-			right: auto !important;
-			bottom: auto !important;
-			margin: 24px auto 0;
-			justify-content: center;
-			width: auto !important;
-		}
-
-		.frameParent25 {
-			position: relative !important;
-			bottom: auto !important;
-			left: auto !important;
-			width: 100% !important;
-			height: auto !important;
-			margin-top: 48px;
-			padding: 40px 0;
-		}
-
-		.frameParent26 {
-			position: relative !important;
-			top: auto !important;
-			left: auto !important;
-			width: calc(100% - 40px) !important;
-			margin: 0 auto;
-		}
-
-		.frameParent27 {
-			flex-direction: column;
-			align-items: center;
-			gap: 40px;
-		}
-
-		.frameParent28 {
-			width: 100% !important;
-			max-width: 500px;
-			align-items: center;
-			text-align: center;
-		}
-
-		.logo01SynapseSpark1Group {
-			width: 100% !important;
-			align-items: center;
-			text-align: center;
-		}
-
-		.onePlatformParent {
-			justify-content: center;
-		}
-
-		.prgeeqGlobalSolutionsPrivatParent {
-			width: 100% !important;
-			align-items: center;
-			text-align: center;
-		}
-
-		.frameParent30,
-		.frameParent37 {
-			width: 100% !important;
-			max-width: 500px;
-			align-items: center;
-		}
-
-		.frameParent31,
-		.frameParent38 {
-			width: 100% !important;
-			flex-wrap: wrap;
-			justify-content: center;
-			text-align: center;
-		}
-
-		.aboutUsParent,
-		.quickLinksParent,
-		.neurolxpParent,
-		.ourCustomersGroup,
-		.ourCustomersContainer {
-			align-items: center;
-			text-align: center;
-		}
-
-		.frameParent32,
-		.frameParent40 {
-			justify-content: center;
-		}
-	}
-
-	@media (max-width: 768px) {
-
-		.image20Parent {
-			width: calc(100% - 24px) !important;
-			min-height: 420px;
-		}
-
-		.image21Parent {
-			width: calc(100% - 24px) !important;
-			left: 12px !important;
-			min-height: 360px;
-		}
-
-		.frameWrapper {
-			padding: 24px 18px;
-		}
-
-		.frameParent4,
-		.image20Group,
-		.frameParent12,
-		.frameParent16,
-		.rectangleGroup {
-			width: calc(100% - 24px) !important;
-		}
-
-		.frameWrapper3 {
-			max-width: 100%;
-		}
-
-		.frameParent13,
-		.frameParent20 {
-			max-width: 100%;
-		}
-
-		.vectorParent,
-		.vectorGroup {
-			max-width: 100%;
-			min-height: 160px;
-		}
-
-		.applyConcepts,
-		.problemSolving,
-		.codeEfficiently,
-		.interviewReady {
-			font-size: 20px;
-		}
-
-		.applyCodingConcepts,
-		.improveLogicalThinking {
-			font-size: 16px;
-		}
-
-		.frameChild5,
-		.frameChild7 {
-			width: 64px;
-			height: 64px;
-			padding: 14px;
-		}
-
-		.frameWrapper6,
-		.frameWrapper7,
-		.frameWrapper8,
-		.frameWrapper9 {
-			height: auto !important;
-			min-height: 64px;
-			padding: 14px 12px !important;
-		}
-
-		.writeCleanEfficient {
-			font-size: 16px;
-		}
-
-		.frameChild14,
-		.frameChild15,
-		.frameChild16 {
-			height: 180px !important;
-		}
-	}
-
-	@media (max-width: 480px) {
-
-		.neurolabsCodingLabs2 {
-			font-size: 26px !important;
-		}
-
-		.buildRealWorldCoding {
-			font-size: 15px !important;
-		}
-
-		.frameWrapper13 {
-			width: 100% !important;
-			max-width: 260px;
-		}
-
-		.frameParent23 {
-			flex-direction: column;
-			gap: 16px !important;
-		}
-
-		.frameParent32,
-		.frameParent40 {
-			width: 100% !important;
-			flex-wrap: wrap;
-			gap: 12px;
-		}
-
-		.frameChild20,
-		.frameChild24 {
-			width: 60px;
-			height: 60px;
-		}
-
-		.copyright2026 {
-			font-size: 13px !important;
-		}
-
-		.frameChild14,
-		.frameChild15,
-		.frameChild16 {
-			height: 150px !important;
-		}
-	}
-
-	@media (max-width: 768px) {
-
-		.logo01SynapseSpark1Icon2 {
-			width: 133px !important;
-			height: 50px !important;
-		}
-
-		.logo01SynapseSpark1Group {
-			gap: 12px !important;
-		}
-
-		.frameParent29 {
-			flex-wrap: wrap;
-			justify-content: center;
-			gap: 10px !important;
-		}
-
-		.onePlatformParent {
-			gap: 6px !important;
-		}
-
-		.onePlatform {
-			font-size: 14px !important;
-			line-height: 1.3 !important;
-		}
-
-		.sparklesIcon {
-			width: 14px !important;
-			height: 14px !important;
-		}
-
-		.prgeeqGlobalSolutions {
-			font-size: 14px !important;
-			line-height: 1.4 !important;
-		}
-
-		.prestigeAtlanta1012Container {
-			font-size: 14px !important;
-			line-height: 1.5 !important;
-			height: auto !important;
-		}
-
-		.prgeeqGlobalSolutionsPrivatParent {
-			gap: 6px !important;
-		}
-
-		.aboutUs,
-		.quickLinks,
-		.neurolxp {
-			font-size: 16px !important;
-		}
-
-		.ourMission,
-		.smartContentCreation {
-			font-size: 14px !important;
-			line-height: 1.4 !important;
-		}
-
-		.ourMissionParent,
-		.ourMissionGroup,
-		.ourCustomersGroup,
-		.ourCustomersContainer {
-			gap: 10px !important;
-		}
-
-		.frameParent27 {
-			gap: 32px !important;
-		}
-
-		.frameParent31,
-		.frameParent38 {
-			gap: 20px !important;
-			padding-top: 20px;
-			border-top: 1px dashed rgba(49, 52, 75, 0.35);
-		}
-
-		.frameParent28 {
-			padding-bottom: 20px;
-			border-bottom: 1px dashed rgba(49, 52, 75, 0.35);
-			gap: 16px !important;
-		}
-
-		.aboutUsParent,
-		.quickLinksParent,
-		.neurolxpParent {
-			gap: 14px !important;
-		}
-
-		.frameParent32,
-		.frameParent40 {
-			gap: 16px !important;
-		}
-
-		.frameChild20,
-		.frameChild24 {
-			width: 60px !important;
-			height: 60px !important;
-		}
-
-		.copyright2026 {
-			font-size: 14px !important;
-			line-height: 1.6 !important;
-			height: auto !important;
-			padding-top: 16px;
-			border-top: 1px dashed rgba(45, 76, 200, 0.25);
-		}
-
-		.frameChild4,
-		.learnByCodingBadge,
-		.flexibleLearningBadge,
-		.codingMysteryBadge,
-		.codingMystery {
-			width: auto !important;
-			min-width: 180px;
-			height: 40px !important;
-			font-size: 16px !important;
-			padding: 0 18px;
-		}
-	}
-
-	@media (max-width: 480px) {
-
-		.frameChild20,
-		.frameChild24 {
-			width: 50px !important;
-			height: 50px !important;
-		}
-
-		.frameParent32,
-		.frameParent40 {
-			width: 100% !important;
-			justify-content: center;
-			flex-wrap: wrap;
-			gap: 14px !important;
-		}
-
-		.onePlatform {
-			font-size: 13px !important;
-		}
-
-		.prgeeqGlobalSolutions,
-		.prestigeAtlanta1012Container {
-			font-size: 13px !important;
-		}
-
-		.aboutUs,
-		.quickLinks,
-		.neurolxp {
-			font-size: 15px !important;
-		}
-
-		.ourMission,
-		.smartContentCreation {
-			font-size: 13px !important;
-		}
-
-		.copyright2026 {
-			font-size: 12px !important;
-		}
-
-		.frameChild4,
-		.learnByCodingBadge,
-		.flexibleLearningBadge,
-		.codingMysteryBadge,
-		.codingMystery {
-			height: 36px !important;
-			font-size: 14px !important;
-			min-width: 150px;
-		}
-	}
-
-	@media (max-width: 1024px) {
-
-		.ellipseParent,
-		.frameItem {
-			width: 260px !important;
-			height: 260px !important;
-			left: -70px !important;
-			top: -70px !important;
-			right: auto !important;
-			bottom: auto !important;
-		}
-
-		.image21,
-		.groupYoungBusinesspeopleUsiIcon {
-			object-position: center 30%;
-		}
-
-		.frameParent17 {
-			gap: 24px !important;
-		}
-
-		.frameParent20 {
-			min-height: auto !important;
-		}
-
-		.frameWrapper10,
-		.frameWrapper11,
-		.frameWrapper12 {
-			margin: 0 0 12px !important;
-		}
-
-		.frameChild14,
-		.frameChild15,
-		.frameChild16 {
-			object-position: center;
-		}
-
-		.sliderArrows {
-			margin: 8px auto 0 !important;
-			gap: 16px !important;
-		}
-
-		.frameParent21 {
-			margin: 8px auto 0 !important;
-		}
-	}
-
-	@media (max-width: 480px) {
-		.ellipseParent,
-		.frameItem {
-			width: 200px !important;
-			height: 200px !important;
-			left: -50px !important;
-			top: -50px !important;
-		}
-
-		.frameChild14,
-		.frameChild15,
-		.frameChild16 {
-			height: 160px !important;
-		}
-	}
-
-	@media (max-width:600px){
-
-	.frameParent5,
-	.frameParent6 {
-
-		position:relative !important;
-		top:auto !important;
-		left:auto !important;
-		width:100% !important;
-		height:auto !important;
-
-	}
-
-	.codeSmarter {
-
-		margin-bottom:40px !important;
-
-	}
-
-	.realWorldSkillDevelopment {
-
-		margin-top:0 !important;
-		margin-bottom:24px !important;
-
-	}
-
-	.codingLabsSimulate {
-
-		margin-bottom:40px !important;
-
-	}
-
-	.flexibleLearning {
-
-		margin-top:40px !important;
-		margin-bottom:24px !important;
-
-	}
-
-	.builtForEveryLearningEnvironment {
-
-		margin-top:0 !important;
-		margin-bottom:24px !important;
-
-	}
-
-	.perfectForUniversities {
-
-		margin-bottom:32px !important;
-
-	}
-
-	.frameWrapper12,
-	.frameWrapper13,
-	.frameWrapper14 {
-
-		width:100% !important;
-		height:auto !important;
-
-	}
-
-	.frameChild {
-
-		width:100% !important;
-		height:auto !important;
-		object-fit:cover;
-
-	}
-
-	.codingLabsSimulate,
-	.perfectForUniversities {
-
-		width:100% !important;
-
-	}
-
-	.neurolabsCodingLabs {
-
-		gap:40px !important;
-
-	}
-
-	}
-
-	@media (max-width:600px){
-
-	.frameParent5,
-	.frameParent6 {
-
-		position:relative !important;
-		top:auto !important;
-		left:auto !important;
-		width:100% !important;
-		height:auto !important;
-
-	}
-
-	.codeSmarter {
-
-		margin-bottom:40px !important;
-
-	}
-
-	.realWorldSkillDevelopment {
-
-		margin-top:0 !important;
-		margin-bottom:24px !important;
-
-	}
-
-	.codingLabsSimulate {
-
-		margin-bottom:40px !important;
-
-	}
-
-	.flexibleLearning {
-
-		margin-top:40px !important;
-		margin-bottom:24px !important;
-
-	}
-
-	.builtForEveryLearningEnvironment {
-
-		margin-top:0 !important;
-		margin-bottom:24px !important;
-
-	}
-
-	.perfectForUniversities {
-
-		margin-bottom:32px !important;
-
-	}
-
-	.frameWrapper10,
-	.frameWrapper11,
-	.frameWrapper12 {
-
-		width:100% !important;
-		height:auto !important;
-
-	}
-
-	.frameChild14,
-	.frameChild15,
-	.frameChild16 {
-
-		width:100% !important;
-		height:auto !important;
-		object-fit:cover;
-
-	}
-
-	.codingLabsSimulate,
-	.perfectForUniversities {
-
-		width:100% !important;
-
-	}
-
-	.neurolabsCodingLabs {
-
-		gap:40px !important;
-
-	}
-
-	@media (max-width: 768px) {
-
-		.image20Parent {
-			display: flex !important;
-			align-items: center !important;
-			justify-content: center !important;
-		}
-
-		.frameWrapper {
-			width: 100% !important;
-			padding: 30px 20px !important;
-			display: flex !important;
-			justify-content: center !important;
-			align-items: center !important;
-			text-align: center !important;
-		}
-
-		.frameParent2,
-		.frameParent3 {
-			width: 100% !important;
-			display: flex !important;
-			flex-direction: column !important;
-			align-items: center !important;
-			justify-content: center !important;
-			text-align: center !important;
-		}
-
-		.practiceBuildAnd {
-			width: 100% !important;
-			max-width: 320px !important;
-			text-align: center !important;
-
-			font-size: 30px !important;
-			line-height: 38px !important;
-
-			margin: 0 auto !important;
-		}
-
-		.practiceSolveChallenges {
-			width: 100% !important;
-			max-width: 320px !important;
-
-			text-align: center !important;
-
-			font-size: 17px !important;
-			line-height: 26px !important;
-
-			margin: 0 auto !important;
-		}
-
-	}
-	}
-
-	@media (max-width: 768px) {
-
-		.frameParent4 {
-			text-align: center !important;
-			align-items: center !important;
-		}
-
-		.frameParent5 {
-			align-items: center !important;
-			text-align: center !important;
-		}
-
-		.masterCodingWith {
-			width: 100% !important;
-			text-align: center !important;
-			justify-content: center !important;
-
-			font-size: 30px !important;
-			line-height: 40px !important;
-		}
-
-		.practiceProgrammingThrough {
-			width: 100% !important;
-			text-align: center !important;
-
-			font-size: 17px !important;
-			line-height: 26px !important;
-		}
-
-		.frameWrapper3 {
-			width: 100% !important;
-			height: auto !important;
-			min-height: 430px !important;
-		}
-
-		.rectangleParent {
-
-			position: relative !important;
-
-			width: 100% !important;
-
-			height: auto !important;
-
-			min-height: 430px !important;
-
-			left: 0 !important;
-
-			top: 0 !important;
-
-		}
-
-		.rectangleDiv {
-
-			width: 100% !important;
-
-			height: 100% !important;
-
-		}
-
-		.frameChild2 {
-
-			width: calc(100% - 48px) !important;
-
-			height: auto !important;
-
-			min-height: 360px !important;
-
-			left: 24px !important;
-
-			top: 24px !important;
-
-			position: absolute !important;
-
-		}
-
-		.frameWrapper5 {
-
-			position: relative !important;
-
-			width: calc(100% - 80px) !important;
-
-			height: auto !important;
-
-			left: auto !important;
-
-			top: auto !important;
-
-			margin: 60px auto 0 !important;
-
-		}
-
-		.writeTestCodeParent {
-
-			width: 100% !important;
-
-			height: auto !important;
-
-			gap: 28px !important;
-
-			align-items: flex-start !important;
-
-		}
-
-		.writeTestCode,
-		.writeTest,
-		.exploreCodingSolutionsContainer,
-		.buildPracticalProjectsContainer {
-
-			width: 100% !important;
-
-			height: auto !important;
-
-			font-size: 18px !important;
-
-			line-height: 30px !important;
-
-		}
-
-	}
-
-	@media (max-width:768px){
-
-		.frameParent14,
-		.frameParent15 {
-
-			width:100% !important;
-
-			display:flex !important;
-
-			flex-direction:column !important;
-
-			align-items:center !important;
-
-			justify-content:center !important;
-
-			text-align:center !important;
-
-			gap:16px !important;
-
-		}
-
-		.frameChild12 {
-
-			margin:0 auto !important;
-
-			display:flex !important;
-
-			align-items:center !important;
-
-			justify-content:center !important;
-
-		}
-
-		.realWorldSkillDevelopment {
-
-			width:100% !important;
-
-			margin:0 !important;
-
-			text-align:center !important;
-
-			font-size:30px !important;
-
-			line-height:38px !important;
-
-		}
-
-		.codingLabsSimulate {
-
-			width:100% !important;
-
-			margin:0 !important;
-
-			text-align:center !important;
-
-			font-size:16px !important;
-
-			line-height:24px !important;
-
-		}
-
-		.frameParent18 {
-
-			width:100% !important;
-
-			display:flex !important;
-
-			flex-direction:column !important;
-
-			align-items:center !important;
-
-			text-align:center !important;
-
-			gap:16px !important;
-
-		}
-
-		.builtForEvery {
-
-			width:100% !important;
-
-			text-align:center !important;
-
-			margin:0 !important;
-
-			font-size:30px !important;
-
-			line-height:38px !important;
-
-		}
-
-		.perfectForUniversities {
-
-			width:100% !important;
-
-			text-align:center !important;
-
-			margin:0 !important;
-
-			font-size:16px !important;
-
-			line-height:24px !important;
-
-		}
-
-	}
-
-	@media (max-width:768px){
-
-		.frameParent14,
-		.frameParent15,
-		.frameParent18 {
-
-			display:flex !important;
-
-			flex-direction:column !important;
-
-			align-items:center !important;
-
-			justify-content:flex-start !important;
-
-			gap:24px !important;
-
-			height:auto !important;
-
-			margin:0 !important;
-
-			position:relative !important;
-
-		}
-
-		.frameParent16 {
-
-			height:auto !important;
-
-			position:relative !important;
-
-			display:block !important;
-
-			margin-top:48px !important;
-
-		}
-
-		.frameParent17 {
-
-			position:relative !important;
-
-			display:flex !important;
-
-			flex-direction:column !important;
-
-			gap:40px !important;
-
-		}
-
-		.frameChild12,
-		.flexibleLearningBadge,
-		.codingMysteryBadge {
-
-			margin:0 !important;
-
-			position:relative !important;
-
-		}
-
-		.realWorldSkillDevelopment,
-		.builtForEvery {
-
-			margin:0 !important;
-
-			width:100% !important;
-
-			text-align:center !important;
-
-		}
-
-		.codingLabsSimulate,
-		.perfectForUniversities {
-
-			margin:0 !important;
-
-			width:100% !important;
-
-			text-align:center !important;
-
-		}
-
-		.frameParent20 {
-
-			margin-top:24px !important;
-
-			height:auto !important;
-
-			position:relative !important;
-
-		}
-
-		.frameWrapper10,
-		.frameWrapper11,
-		.frameWrapper12 {
-
-			position:relative !important;
-
-			margin-bottom:24px !important;
-
-		}
-
-	}
-
-	@media (max-width:768px){
-
-		.realWorldSkillDevelopment,
-		.builtForEvery {
-
-			font-size:32px !important;
-			line-height:40px !important;
-
-			width:100% !important;
-
-			text-align:center !important;
-
-			margin:0 !important;
-
-		}
-
-		.codingLabsSimulate,
-		.perfectForUniversities {
-
-			font-size:16px !important;
-
-			line-height:24px !important;
-
-			width:100% !important;
-
-			text-align:center !important;
-
-			margin:0 !important;
-
-		}
-
-		.frameParent14,
-		.frameParent15,
-		.frameParent18 {
-
-			gap:16px !important;
-
-		}
-
-		.frameChild12,
-		.frameChild4,
-		.flexibleLearningBadge {
-
-			margin:0 !important;
-
-		}
-
-		.frameParent16 {
-
-			margin-top:24px !important;
-
-		}
-
-	}
-
-	@media(max-width:480px){
-
-		.realWorldSkillDevelopment,
-		.builtForEvery {
-
-			font-size:32px !important;
-
-			line-height:40px !important;
-
-		}
-
-		.codingLabsSimulate,
-		.perfectForUniversities {
-
-			font-size:16px !important;
-
-			line-height:24px !important;
-
-		}
-
-	}
-
-	@media (max-width:768px){
-
-		.frameParent14,
-		.frameParent15,
-		.frameParent18 {
-
-			gap:12px !important;
-
-		}
-
-		.frameChild12 {
-
-			margin-bottom:4px !important;
-
-		}
-
-		.realWorldSkillDevelopment,
-		.builtForEvery {
-
-			margin:0 !important;
-
-			padding:0 !important;
-
-		}
-
-		.codingLabsSimulate,
-		.perfectForUniversities {
-
-			margin:0 !important;
-
-			padding:0 !important;
-
-		}
-
-		.frameParent16 {
-
-			margin-top:12px !important;
-
-		}
-
-	}
-
-	@media (max-width: 768px) {
-	.neurolabsCodingLabs {
-		width: 100% !important;
-		height: auto !important;
-		min-height: 100vh !important;
-		padding: 0 0 48px !important;
-		overflow-x: hidden !important;
-		overflow-y: visible !important;
-		font-size: 16px !important;
-		line-height: 24px !important;
-		box-sizing: border-box !important;
-	}
-
-	.neurolabsCodingLabs *,
-	.neurolabsCodingLabs *::before,
-	.neurolabsCodingLabs *::after {
-		box-sizing: border-box;
-	}
-
-	.frameDiv {
-		width: calc(100% - 32px) !important;
-		margin: 0 auto !important;
-		padding: 16px 0 0 !important;
-		font-size: 14px !important;
-		line-height: 22px !important;
-		gap: 8px !important;
-	}
-
-	.image20Parent,
-	.frameParent4,
-	.image20Group,
-	.frameParent12,
-	.frameParent16,
-	.rectangleGroup {
-		position: relative !important;
-		top: auto !important;
-		right: auto !important;
-		bottom: auto !important;
-		left: auto !important;
-		width: calc(100% - 32px) !important;
-		max-width: 480px !important;
-		height: auto !important;
-		margin-right: auto !important;
-		margin-left: auto !important;
-	}
-
-	.image20Parent { margin-top: 24px !important; min-height: 500px !important; }
-	.frameParent4,
-	.image20Group,
-	.frameParent12,
-	.frameParent16,
-	.rectangleGroup { margin-top: 48px !important; }
-
-	.image21Parent {
-		position: relative !important;
-		top: 16px !important;
-		left: 16px !important;
-		width: calc(100% - 32px) !important;
-		height: 468px !important;
-		min-height: 0 !important;
-	}
-
-	.image21,
-	.groupYoungBusinesspeopleUsiIcon {
-		inset: 0 !important;
-		width: 100% !important;
-		height: 100% !important;
-		object-fit: cover !important;
-		object-position: center !important;
-	}
-
-	.ellipseParent {
-		top: -45px !important;
-		left: -60px !important;
-		width: 280px !important;
-		height: 560px !important;
-	}
-
-	.frameItem {
-		top: 0 !important;
-		left: 0 !important;
-		width: 280px !important;
-		height: 560px !important;
-		border-radius: 0 50% 50% 0 !important;
-	}
-
-	.frameWrapper {
-		position: absolute !important;
-		inset: 0 !important;
-		z-index: 2 !important;
-		width: 100% !important;
-		padding: 24px !important;
-		display: flex !important;
-		align-items: center !important;
-		justify-content: center !important;
-		text-align: center !important;
-	}
-
-	.frameParent2,
-	.frameParent3 {
-		width: 100% !important;
-		height: auto !important;
-		align-items: center !important;
-		gap: 24px !important;
-		text-align: center !important;
-	}
-
-	.codingMysteryBadge,
-	.learnByCodingBadge,
-	.flexibleLearningBadge,
-	.frameChild4 {
-		width: auto !important;
-		min-width: 0 !important;
-		height: 40px !important;
-		padding: 8px 16px !important;
-		font-size: 14px !important;
-		line-height: 22px !important;
-		font-weight: 600 !important;
-	}
-
-	.practiceBuildAnd {
-		width: 100% !important;
-		height: auto !important;
-		margin: 0 !important;
-		font-size: 32px !important;
-		line-height: 40px !important;
-		text-align: center !important;
-	}
-
-	.practiceSolveChallenges {
-		width: 100% !important;
-		height: auto !important;
-		margin: 0 !important;
-		font-size: 16px !important;
-		line-height: 24px !important;
-		text-align: center !important;
-	}
-
-	.masterCodingWith,
-	.interactiveCodingChallenges,
-	.realWorldSkillDevelopment,
-	.builtForEvery {
-		width: 100% !important;
-		height: auto !important;
-		margin: 0 !important;
-		padding: 0 !important;
-		font-size: 24px !important;
-		line-height: 32px !important;
-		font-weight: 700 !important;
-		text-align: center !important;
-		justify-content: center !important;
-	}
-
-	.practiceProgrammingThrough,
-	.learnByBuilding,
-	.codingLabsSimulate,
-	.perfectForUniversities {
-		width: 100% !important;
-		height: auto !important;
-		margin: 0 !important;
-		padding: 0 !important;
-		font-size: 16px !important;
-		line-height: 24px !important;
-		text-align: center !important;
-	}
-
-	.frameParent4,
-	.frameParent12,
-	.frameParent17 {
-		display: flex !important;
-		flex-direction: column !important;
-		align-items: center !important;
-		gap: 24px !important;
-	}
-
-	.frameParent5,
-	.frameParent8,
-	.frameParent14,
-	.frameParent15,
-	.frameParent18 {
-		width: 100% !important;
-		height: auto !important;
-		display: flex !important;
-		flex-direction: column !important;
-		align-items: center !important;
-		gap: 12px !important;
-		text-align: center !important;
-	}
-
-	.frameWrapper3,
-	.rectangleParent {
-		position: relative !important;
-		inset: auto !important;
-		width: 100% !important;
-		max-width: 420px !important;
-		height: 400px !important;
-		min-height: 400px !important;
-		margin: 0 auto !important;
-	}
-
-	.rectangleDiv {
-		inset: 0 !important;
-		width: 100% !important;
-		height: 100% !important;
-	}
-
-	.frameChild2 {
-		top: 24px !important;
-		left: 24px !important;
-		width: calc(100% - 48px) !important;
-		height: calc(100% - 48px) !important;
-		min-height: 0 !important;
-	}
-
-	.frameWrapper5 {
-		position: absolute !important;
-		top: 50% !important;
-		left: 50% !important;
-		width: calc(100% - 88px) !important;
-		height: auto !important;
-		margin: 0 !important;
-		transform: translate(-50%, -50%) !important;
-	}
-
-	.writeTestCodeParent { position: relative !important; width: 100% !important; gap: 24px !important; }
-	.writeTestCode,
-	.writeTest,
-	.exploreCodingSolutionsContainer,
-	.buildPracticalProjectsContainer {
-		width: 100% !important;
-		height: auto !important;
-		font-size: 16px !important;
-		line-height: 24px !important;
-	}
-
-	.image20Group { overflow: visible !important; }
-	.frameParent7 {
-		position: relative !important;
-		inset: auto !important;
-		width: 100% !important;
-		height: auto !important;
-		padding: 32px 16px !important;
-		gap: 24px !important;
-	}
-
-	.frameParent9,
-	.frameParent10,
-	.frameParent11 {
-		width: 100% !important;
-		display: flex !important;
-		flex-direction: column !important;
-		gap: 16px !important;
-	}
-
-	.vectorParent,
-	.vectorGroup {
-		width: 100% !important;
-		max-width: 420px !important;
-		height: 176px !important;
-		min-height: 176px !important;
-		margin: 0 auto !important;
-	}
-
-	.applyConceptsParent,
-	.problemSolvingParent {
-		left: 20px !important;
-		width: calc(100% - 112px) !important;
-		gap: 8px !important;
-	}
-
-	.applyConcepts,
-	.problemSolving,
-	.codeEfficiently,
-	.interviewReady {
-		font-size: 18px !important;
-		line-height: 26px !important;
-	}
-
-	.applyCodingConcepts,
-	.improveLogicalThinking {
-		font-size: 14px !important;
-		line-height: 22px !important;
-	}
-
-	.frameChild5,
-	.frameChild7 {
-		top: 20px !important;
-		right: 20px !important;
-		width: 56px !important;
-		height: 56px !important;
-		padding: 12px !important;
-	}
-
-	.frameParent13 {
-		width: 100% !important;
-		max-width: 420px !important;
-		height: auto !important;
-		display: flex !important;
-		flex-direction: column !important;
-		gap: 16px !important;
-	}
-
-	.frameWrapper6,
-	.frameWrapper7,
-	.frameWrapper8,
-	.frameWrapper9 {
-		position: relative !important;
-		inset: auto !important;
-		width: 100% !important;
-		min-height: 64px !important;
-		padding: 12px 18px !important;
-	}
-
-	.checkmarkBadge01Parent,
-	.checkmarkBadge01Container,
-	.checkmarkBadge01Parent2 {
-		position: relative !important;
-		inset: auto !important;
-		transform: none !important;
-		gap: 12px !important;
-	}
-
-	.skillCheckIcon { width: 32px !important; height: 32px !important; }
-	.writeCleanEfficient { font-size: 16px !important; line-height: 24px !important; }
-
-	.frameParent16 { display: block !important; }
-	.frameParent17 { position: relative !important; inset: auto !important; width: 100% !important; }
-	.frameParent20 {
-		position: relative !important;
-		width: 100% !important;
-		max-width: 420px !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 0 auto !important;
-	}
-
-	.frameWrapper10,
-	.frameWrapper11,
-	.frameWrapper12 {
-		position: relative !important;
-		inset: auto !important;
-		width: 100% !important;
-		height: 220px !important;
-		min-height: 220px !important;
-		margin: 0 0 16px !important;
-		padding: 16px !important;
-	}
-
-	.frameChild14,
-	.frameChild15,
-	.frameChild16 {
-		position: relative !important;
-		inset: auto !important;
-		width: 100% !important;
-		height: 188px !important;
-		object-fit: cover !important;
-	}
-
-	.sliderArrows {
-		position: relative !important;
-		inset: auto !important;
-		width: auto !important;
-		margin: 8px auto 0 !important;
-		justify-content: center !important;
-		gap: 16px !important;
-	}
-
-	.rectangleGroup {
-		min-height: 430px !important;
-		border-radius: 32px !important;
-		overflow: hidden !important;
-	}
-
-	.ctaBackground {
-		position: absolute !important;
-		inset: 0 !important;
-		width: 100% !important;
-		height: 100% !important;
-		object-fit: cover !important;
-	}
-
-	.frameParent22 {
-		position: relative !important;
-		inset: auto !important;
-		width: 100% !important;
-		height: auto !important;
-		min-height: 430px !important;
-		padding: 40px 24px !important;
-		gap: 24px !important;
-		justify-content: center !important;
-	}
-
-	.neurolabsCodingLabsLearnByParent { gap: 12px !important; }
-	.neurolabsCodingLabs2 {
-		width: 100% !important;
-		height: auto !important;
-		font-size: 32px !important;
-		line-height: 40px !important;
-	}
-
-	.buildRealWorldCoding {
-		width: 100% !important;
-		height: auto !important;
-		font-size: 16px !important;
-		line-height: 24px !important;
-	}
-
-	.frameParent23 { flex-direction: column !important; gap: 16px !important; }
-	.frameWrapper13 { width: 100% !important; max-width: 240px !important; height: 56px !important; }
-	.bookADemo { font-size: 16px !important; line-height: 24px !important; }
-
-	.frameParent25,
-	.frameParent26,
-	.frameParent27,
-	.frameParent28,
-	.frameParent30,
-	.frameParent31,
-	.frameParent37,
-	.frameParent38 {
-		position: relative !important;
-		inset: auto !important;
-		width: 100% !important;
-		height: auto !important;
-	}
-
-	.frameParent25 { margin-top: 48px !important; padding: 32px 16px !important; }
-	.frameParent27 { display: flex !important; flex-direction: column !important; gap: 24px !important; }
-	.frameParent28 { gap: 24px !important; }
-	.frameParent31,
-	.frameParent38 { display: grid !important; grid-template-columns: 1fr 1fr !important; gap: 24px 16px !important; }
-	.neurolxpParent { grid-column: 1 / -1 !important; }
-
-	.aboutUs,
-	.quickLinks,
-	.neurolxp { font-size: 16px !important; line-height: 24px !important; }
-	.ourMission,
-	.smartContentCreation,
-	.prgeeqGlobalSolutions,
-	.prestigeAtlanta1012Container { font-size: 14px !important; line-height: 22px !important; }
-	.copyright2026 { height: auto !important; font-size: 14px !important; line-height: 22px !important; text-align: center !important; }
-	}
-
-	@media (max-width: 480px) {
-	.image20Parent,
-	.frameParent4,
-	.image20Group,
-	.frameParent12,
-	.frameParent16,
-	.rectangleGroup { width: calc(100% - 24px) !important; }
-
-	.frameDiv { width: calc(100% - 24px) !important; }
-	.image21Parent { top: 12px !important; left: 12px !important; width: calc(100% - 24px) !important; }
-	.frameWrapper { padding: 20px 16px !important; }
-	.practiceBuildAnd,
-	.neurolabsCodingLabs2 { font-size: 32px !important; line-height: 40px !important; }
-	.frameParent31,
-	.frameParent38 { grid-template-columns: 1fr !important; }
-	.neurolxpParent { grid-column: auto !important; }
-	}
-
-@media (max-width: 768px) {
-
-	.frameDiv {
-		position: relative !important;
-		inset: auto !important;
-		top: auto !important;
-		left: auto !important;
-		width: calc(100% - 32px) !important;
-		margin: 0 auto !important;
-		padding-top: 16px !important;
-	}
-
-	.image20Parent {
-		position: relative !important;
-		inset: auto !important;
-		top: auto !important;
-		left: auto !important;
-		width: calc(100% - 32px) !important;
-		max-width: 480px !important;
-		height: 500px !important;
-		min-height: 500px !important;
-		margin: 24px auto 0 !important;
-		border-radius: 32px !important;
-		overflow: hidden !important;
-		display: block !important;
-	}
-
-	.image20 {
-		position: absolute !important;
-		inset: 0 !important;
-		width: 100% !important;
-		height: 100% !important;
-	}
-
-	.image21Parent {
-		position: absolute !important;
-		top: 16px !important;
-		left: 16px !important;
-		width: calc(100% - 32px) !important;
-		height: calc(100% - 32px) !important;
-		min-height: 0 !important;
-		margin: 0 !important;
-		border-radius: 16px !important;
-		overflow: hidden !important;
-		display: block !important;
-	}
-
-	.image21 {
-		position: absolute !important;
-		inset: 0 !important;
-		width: 100% !important;
-		height: 100% !important;
-	}
-
-	.groupYoungBusinesspeopleUsiIcon {
-		position: absolute !important;
-		inset: 0 !important;
-		width: 100% !important;
-		height: 100% !important;
-		object-fit: cover !important;
-		object-position: 50% center !important;
-		border-radius: 16px !important;
-		filter: none !important;
-		-webkit-filter: none !important;
-		display: block !important;
-		opacity: 1 !important;
-		z-index: 1 !important;
-	}
-
-	.ellipseParent {
-		position: absolute !important;
-		inset: 0 !important;
-		width: 100% !important;
-		height: 100% !important;
-		z-index: 2 !important;
-		pointer-events: none !important;
-	}
-
-	.frameItem {
-		position: absolute !important;
-		top: 88px !important;
-		left: 8px !important;
-		width: 58% !important;
-		max-width: 210px !important;
-		height: 282px !important;
-		border-radius: 16px !important;
-		background: rgba(38, 41, 52, 0.82) !important;
-		backdrop-filter: none !important;
-		-webkit-backdrop-filter: none !important;
-		filter: none !important;
-		box-shadow: none !important;
-		z-index: 2 !important;
-	}
-
-	.frameWrapper {
-		position: absolute !important;
-		inset: auto !important;
-		top: 88px !important;
-		left: 8px !important;
-		width: 58% !important;
-		max-width: 210px !important;
-		height: 282px !important;
-		padding: 14px !important;
-		margin: 0 !important;
-		transform: none !important;
-		display: flex !important;
-		align-items: flex-start !important;
-		justify-content: flex-start !important;
-		text-align: left !important;
-		overflow: hidden !important;
-		z-index: 3 !important;
-		pointer-events: auto !important;
-	}
-
-	.frameWrapper2,
-	.frameWrapper .frameParent2,
-	.frameWrapper .frameParent3 {
-		width: 100% !important;
-		height: auto !important;
-		margin: 0 !important;
-		display: flex !important;
-		flex-direction: column !important;
-		align-items: flex-start !important;
-		justify-content: flex-start !important;
-		text-align: left !important;
-	}
-
-	.frameWrapper .frameParent2,
-	.frameWrapper .frameParent3 {
-		gap: 12px !important;
-	}
-
-	.frameWrapper .codingMysteryBadge {
-		width: auto !important;
-		height: 36px !important;
-		min-height: 36px !important;
-		margin: 0 !important;
-		padding: 8px 13px !important;
-		border-radius: 20px !important;
-		font-size: 13px !important;
-		font-weight: 600 !important;
-		line-height: 20px !important;
-		white-space: nowrap !important;
-	}
-
-	.frameWrapper .practiceBuildAnd {
-		width: 100% !important;
-		max-width: none !important;
-		height: auto !important;
-		margin: 0 !important;
-		color: #fff !important;
-		font-size: 24px !important;
-		font-weight: 700 !important;
-		line-height: 30px !important;
-		letter-spacing: 0 !important;
-		text-align: left !important;
-	}
-
-	.frameWrapper .practiceSolveChallenges {
-		width: 100% !important;
-		max-width: none !important;
-		height: auto !important;
-		margin: 0 !important;
-		color: #fff !important;
-		font-size: 14px !important;
-		font-weight: 400 !important;
-		line-height: 20px !important;
-		letter-spacing: 0 !important;
-		text-align: left !important;
-	}
-
-	.frameParent4 {
-		position: relative !important;
-		inset: auto !important;
-		top: auto !important;
-		left: auto !important;
-		width: calc(100% - 32px) !important;
-		max-width: 480px !important;
-		margin: 48px auto 0 !important;
-	}
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
-@media (max-width: 390px) {
-	.frameItem,
-	.frameWrapper {
-		width: 59% !important;
-		max-width: 198px !important;
-		height: 276px !important;
-	}
-
-	.frameWrapper {
-		padding: 12px !important;
-	}
-
-	.frameWrapper .practiceBuildAnd {
-		font-size: 22px !important;
-		line-height: 28px !important;
-	}
-
-	.frameWrapper .practiceSolveChallenges {
-		font-size: 13px !important;
-		line-height: 19px !important;
-	}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
-	.frameParent12 {
-		height: auto !important;
-	}
-
-	.frameParent14 {
-		height: auto !important;
-		gap: 24px !important;
-	}
-
-	.frameParent15 {
-		width: 100% !important;
-		height: auto !important;
-		min-height: 0 !important;
-		gap: 12px !important;
-		margin: 0 !important;
-	}
-
-	.realWorldSkillDevelopment {
-		width: 100% !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 0 !important;
-		line-height: 32px !important;
-	}
-
-	.realWorldSkillDevelopment br {
-		display: none !important;
-	}
-
-	.codingLabsSimulate {
-		width: 100% !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 0 !important;
-		line-height: 24px !important;
-	}
-
-	.codingLabsSimulate br {
-		display: none !important;
-	}
-
-	.frameParent16 {
-		height: auto !important;
-	}
-
-	.frameParent17 {
-		height: auto !important;
-		gap: 32px !important;
-	}
-
-	.frameParent18 {
-		width: 100% !important;
-		height: auto !important;
-		min-height: 0 !important;
-		gap: 12px !important;
-		margin: 0 !important;
-	}
-
-	.builtForEvery {
-		width: 100% !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 0 !important;
-		line-height: 32px !important;
-	}
-
-	.builtForEvery br {
-		display: none !important;
-	}
-
-	.perfectForUniversities {
-		width: 100% !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 0 !important;
-		line-height: 24px !important;
-	}
-
-	.perfectForUniversities br {
-		display: none !important;
-	}
-
-	.flexibleLearningBadge {
-		margin-top: 0 !important;
-		margin-bottom: 12px !important;
-	}
+button,
+a {
+  font: inherit;
 }
 
-@media (max-width: 768px) {
+:root {
+  --coding-bg: #dfe6e9;
+  --coding-heading: #31344b;
+  --coding-text: #2f3547;
+  --coding-blue: #2d4cc8;
+  --coding-green: #2a7308;
+  --coding-pink: #bf1869;
+  --coding-purple: #67096e;
+  --coding-white: #ffffff;
+  --coding-shadow-dark: #c4c4c4;
+  --coding-radius-xl: 32px;
+  --coding-radius-lg: 24px;
+  --coding-radius-md: 16px;
+}
 
-	.frameParent12 {
-		position: relative !important;
-		inset: auto !important;
-		width: calc(100% - 32px) !important;
-		max-width: 480px !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 48px auto 0 !important;
-		display: flex !important;
-		flex-direction: column !important;
-		align-items: center !important;
-		gap: 32px !important;
-		text-align: center !important;
-	}
+.coding-page {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: clip;
+  background: var(--coding-bg);
+  color: var(--coding-heading);
+  font-family: "Segoe UI";
+}
 
-	.frameParent14 {
-		width: 100% !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 0 !important;
-		display: flex !important;
-		flex-direction: column !important;
-		align-items: center !important;
-		justify-content: flex-start !important;
-		gap: 12px !important;
-		text-align: center !important;
-	}
 
-	.frameParent15 {
-		width: 100% !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 0 !important;
-		display: flex !important;
-		flex-direction: column !important;
-		align-items: center !important;
-		justify-content: flex-start !important;
-		gap: 12px !important;
-		text-align: center !important;
-	}
+.coding-shell {
+  width: min(1280px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 32px 0 96px;
+}
 
-	.frameParent15 .codingMysteryBadge {
-		margin: 0 0 12px !important;
-		align-self: center !important;
-	}
+.coding-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 24px;
+  color: var(--coding-text);
+  font-size: 16px;
+  line-height: 24px;
+}
 
-	.realWorldSkillDevelopment {
-		width: 100% !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 0 !important;
-		padding: 0 !important;
-		display: block !important;
-		font-size: 24px !important;
-		line-height: 32px !important;
-		text-align: center !important;
-	}
+.coding-breadcrumb strong {
+  color: #243fa8;
+}
 
-	.realWorldSkillDevelopment br {
-		display: none !important;
-	}
+.coding-hero {
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: var(--coding-radius-xl);
+  background: var(--coding-bg);
+  box-shadow:
+    inset -8px -8px 16px #ffffff,
+    inset 8px 8px 16px rgba(196, 196, 196, 0.8);
+}
 
-	.codingLabsSimulate {
-		width: 100% !important;
-		max-width: 380px !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 0 auto !important;
-		padding: 0 !important;
-		display: block !important;
-		font-size: 16px !important;
-		line-height: 24px !important;
-		text-align: center !important;
-	}
+.coding-hero__inner {
+  min-height: 550px;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(460px, 1.15fr);
+  align-items: center;
+  border-radius: var(--coding-radius-md);
+  background: var(--coding-bg);
+  box-shadow:
+    10px 10px 20px #c4c4c4,
+    -10px -10px 20px rgba(255, 255, 255, 0.6);
+}
 
-	.codingLabsSimulate br {
-		display: none !important;
-	}
+.coding-hero__content {
+  position: relative;
+  z-index: 2;
+  align-self: center;
+  padding:32px 0 50px 50px;
+  transform: translateY(-50px);
+}
 
-	.frameParent16 {
-		position: relative !important;
-		inset: auto !important;
-		width: calc(100% - 32px) !important;
-		max-width: 480px !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 48px auto 0 !important;
-	}
+.coding-pill {
+  width: fit-content;
+  min-height: 50px;
+  padding: 10px 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 28px;
+  background: var(--coding-bg);
+  color: var(--coding-blue);
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
 
-	.frameParent17 {
-		position: relative !important;
-		inset: auto !important;
-		width: 100% !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 0 !important;
-		display: flex !important;
-		flex-direction: column !important;
-		align-items: center !important;
-		justify-content: flex-start !important;
-		gap: 24px !important;
-		text-align: center !important;
-	}
+.coding-pill--wide {
+  padding-inline: 30px;
+}
 
-	.frameParent18 {
-		width: 100% !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 0 !important;
-		display: flex !important;
-		flex-direction: column !important;
-		align-items: center !important;
-		justify-content: flex-start !important;
-		gap: 12px !important;
-		text-align: center !important;
-	}
+.coding-hero h1,
+.coding-section-copy h2,
+.coding-challenges__intro h2,
+.coding-cta h2 {
+  margin: 0;
+  color: var(--coding-heading);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
 
-	.frameParent18 > .frameParent2 {
-		width: 100% !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 0 !important;
-		display: flex !important;
-		flex-direction: column !important;
-		align-items: center !important;
-		gap: 12px !important;
-		text-align: center !important;
-	}
+.coding-hero h1 {
+  max-width: 580px;
+  margin-top: 32px;
+  font-size: 36px;
+  line-height: 1.25;
+}
 
-	.flexibleLearningBadge {
-		margin: 0 0 12px !important;
-		align-self: center !important;
-	}
+.coding-hero p {
+  max-width: 500px;
+  margin:10px 0 0;
+  color: var(--coding-text);
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  margin-bottom:50px;
+}
 
-	.builtForEvery {
-		width: 100% !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 0 !important;
-		padding: 0 !important;
-		display: block !important;
-		font-size: 24px !important;
-		line-height: 32px !important;
-		text-align: center !important;
-		justify-content: center !important;
-	}
+.coding-hero__visual {
+  height: 100%;
+  min-height: 550px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
 
-	.builtForEvery br {
-		display: none !important;
-	}
+.coding-hero__visual img {
+  width: min(740px, 118%);
+  max-width: none;
+  height: auto;
+  object-fit: contain;
+  transform: translateX(4%);
+}
 
-	.perfectForUniversities {
-		width: 100% !important;
-		max-width: 380px !important;
-		height: auto !important;
-		min-height: 0 !important;
-		margin: 0 auto !important;
-		padding: 0 !important;
-		display: block !important;
-		font-size: 16px !important;
-		line-height: 24px !important;
-		text-align: center !important;
-	}
+.coding-section {
+  margin-top: 96px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(440px, 0.9fr);
+  align-items: center;
+  gap: 68px;
+}
 
-	.perfectForUniversities br {
-		display: none !important;
-	}
+.coding-section-copy {
+  min-width: 0;
+}
 
-	.frameParent20 {
-		position: relative !important;
-		inset: auto !important;
-		width: 100% !important;
-		max-width: 480px !important;
-		height: auto !important;
-		min-height: 420px !important;
-		margin: 8px auto 0 !important;
-	}
+.coding-section-copy h2 {
+  max-width: 650px;
+  margin-top: 32px;
+  font-size: 36px;
+  line-height: 1.25;
+}
+
+.coding-section-copy p {
+  max-width: 654px;
+  margin: 32px 0 0;
+  color: var(--coding-text);
+  font-size: 24px;
+  line-height: 1.43;
+  letter-spacing: 0.03em;
+}
+
+.coding-practice-card {
+  width: 100%;
+  max-width: 529px;
+  justify-self: end;
+  padding: 32px;
+  border-radius: var(--coding-radius-xl);
+  background: var(--coding-bg);
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c4c4c4;
+}
+
+.coding-practice-card__inner {
+  min-height: 396px;
+  padding: 52px 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  border-radius: var(--coding-radius-md);
+  background: #dddddd;
+  box-shadow:
+    -8px -8px 8px rgba(255, 255, 255, 0.65),
+    8px 8px 8px rgba(196, 196, 196, 0.75);
+}
+
+.coding-practice-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: var(--coding-heading);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+}
+
+.coding-check-icon {
+  flex: 0 0 36px;
+}
+
+.coding-challenges {
+  margin-top: 96px;
+  padding: 50px;
+  border-radius: var(--coding-radius-xl);
+  background: var(--coding-bg);
+  box-shadow:
+    inset -8px -8px 16px #ffffff,
+    inset 8px 8px 16px rgba(196, 196, 196, 0.8);
+}
+
+.coding-challenges__intro {
+  max-width: 944px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.coding-challenges__intro h2 {
+  margin-top: 32px;
+  font-size: 36px;
+  line-height: 1.25;
+}
+
+.coding-challenges__intro p {
+  margin: 14px auto 0;
+  color: var(--coding-text);
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+}
+
+.coding-challenge-grid {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 50px 56px;
+}
+
+.coding-challenge-card {
+  min-height: 196px;
+  position: relative;
+  overflow: hidden;
+  padding: 36px 150px 36px 32px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--coding-radius-md);
+  background: var(--coding-bg);
+  box-shadow:
+    10px 10px 20px #c4c4c4,
+    -10px -10px 20px #ffffff;
+  cursor: default;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+
+.coding-challenge-card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    -10px -10px 20px #ffffff,
+    10px 10px 20px #c4c4c4;
+}
+
+.coding-challenge-card,
+.coding-challenge-card * {
+  cursor: default !important;
+}
+
+.coding-challenge-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  clip-path: polygon(0 0, 56% 0, 100% 100%, 0 100%);
+  pointer-events: none;
+}
+
+.coding-challenge-card--pink::before {
+  background: rgba(229, 162, 195, 0.45);
+}
+
+.coding-challenge-card--teal::before {
+  background: rgba(108, 195, 198, 0.45);
+}
+
+.coding-challenge-card--purple::before {
+  background: rgba(194, 156, 197, 0.55);
+}
+
+.coding-challenge-card--blue::before {
+  background: rgba(156, 167, 210, 0.55);
+}
+
+.coding-challenge-card__copy {
+  position: relative;
+  z-index: 2;
+}
+
+.coding-challenge-card h3 {
+  margin: 0;
+  color: var(--coding-heading);
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.coding-challenge-card p {
+  max-width: 330px;
+  margin: 20px 0 0;
+  color: var(--coding-text);
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.coding-challenge-card__icon {
+  position: absolute;
+  z-index: 3;
+  top: 24px;
+  right: 32px;
+  width: 80px;
+  height: 80px;
+  padding: 18px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--coding-bg);
+  box-shadow:
+    8px 8px 16px #c6c6c9,
+    -8px -8px 16px #ffffff;
+}
+
+.coding-challenge-card__icon img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.coding-skills {
+  grid-template-columns: minmax(390px, 0.8fr) minmax(0, 1.05fr);
+  gap: 128px;
+}
+
+.coding-skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.coding-skill-item {
+  --skill-color: var(--coding-blue);
+  width: min(430px, 100%);
+  min-height: 70px;
+  padding: 15px 34px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-left: 5px solid var(--skill-color);
+  border-right: 5px solid var(--skill-color);
+  border-radius: 32px;
+  background: var(--coding-bg);
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+  color: var(--coding-heading);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+}
+
+.coding-skill-item img {
+  flex: 0 0 36px;
+}
+
+
+
+.coding-skills,
+.coding-skills *,
+.coding-skill-item,
+.coding-skill-item *,
+.coding-skills .coding-section-copy,
+.coding-skills .coding-section-copy * {
+  cursor: default !important;
+}
+
+
+.coding-skill-item {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.coding-skill-item:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    -6px -6px 12px #ffffff,
+    6px 6px 12px #c4c4c4;
+}
+
+
+.coding-skills a,
+.coding-skills button {
+  cursor: default !important;
+  pointer-events: none;
+}
+
+.coding-learning {
+  grid-template-columns: 430px minmax(0, 1fr);
+  gap: 96px;
+  align-items: start;
+}
+
+.coding-learning .coding-section-copy {
+  padding-top: 122px;
+}
+
+.coding-video-area {
+  width: 100%;
+  max-width: 689px;
+  min-width: 0;
+  margin-left: auto;
+}
+
+.coding-video-deck {
+  width: 100%;
+  max-width: 689px;
+  height: 570px;
+  position: relative;
+  margin: 0;
+}
+
+.coding-video-card {
+  position: absolute;
+  overflow: hidden;
+  padding: 16px;
+  background: var(--coding-bg);
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c6c6c9;
+}
+
+.coding-video-card video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+.coding-learning .coding-video-card {
+  cursor: default;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.coding-learning .coding-video-card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    -10px -10px 20px #ffffff,
+    10px 10px 20px #c4c4c4;
+}
+
+.coding-learning .coding-section-copy,
+.coding-learning .coding-section-copy * {
+  cursor: default !important;
+}
+
+.coding-video-card--back {
+  width: 204px;
+  height: 222px;
+  top: 162px;
+  right: 0;
+  border-radius: 16px;
+}
+
+.coding-video-card--middle {
+  width: 306px;
+  height: 328px;
+  top: 106px;
+  right: 72px;
+  padding: 24px;
+  border-radius: 24px;
+}
+
+.coding-video-card--front {
+  width: 501px;
+  height: 551px;
+  top: 0;
+  left: 0;
+  padding: 24px;
+  border-radius: 24px;
+}
+
+.coding-video-controls {
+  width: 100%;
+  max-width: 689px;
+  margin: 30px 0 0;
+  padding-right: 28px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.coding-video-controls button {
+  width: 80px;
+  height: 80px;
+  padding: 8px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: var(--coding-bg);
+  box-shadow:
+    inset 6px 6px 12px #c4c4c4,
+    inset -6px -6px 12px #ffffff;
+  cursor: pointer;
+}
+
+
+.coding-video-controls button::before {
+  content: "";
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: var(--coding-bg);
+  box-shadow:
+    -6px -6px 12px #ffffff,
+    6px 6px 12px #c6c6c9;
+}
+
+.coding-video-controls button img {
+  position: relative;
+  z-index: 2;
+  width: 24px;
+  height: 24px;
+}
+
+.coding-video-controls button:active::before {
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px #c4c4c4;
+}
+
+.coding-cta {
+  min-height: 505px;
+  margin-top: 96px;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  padding: 64px;
+  border-radius: 250px;
+  isolation: isolate;
+}
+
+.coding-cta__background {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.coding-cta__content {
+  width: min(880px, 100%);
+  text-align: center;
+}
+
+.coding-cta h2 {
+  font-size: 36px;
+  line-height: 1.35;
+  text-transform: capitalize;
+}
+
+.coding-cta p {
+  max-width: 660px;
+  margin: 28px auto 0;
+  color: #000000;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+}
+
+.coding-cta__actions {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.coding-cta__actions button {
+  min-width: 200px;
+  height: 64px;
+  padding: 0 28px;
+  border: 0;
+  border-radius: 32px;
+  background: var(--coding-bg);
+  color: var(--coding-blue);
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c6c6c9;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+.coding-cta__actions button.is-selected {
+  color: var(--coding-heading);
+  box-shadow:
+    inset -5px -5px 10px #ffffff,
+    inset 5px 5px 10px #c4c4c4;
+}
+
+
+.coding-cta__actions button:active,
+.coding-cta__actions button.is-selected {
+  color: var(--coding-heading);
+}
+
+.coding-video-controls button:focus-visible,
+.coding-cta__actions button:focus-visible {
+  outline: 2px solid var(--coding-blue);
+  outline-offset: 4px;
+}
+
+
+.coding-hero h1,
+.coding-section-copy h2,
+.coding-challenges__intro h2,
+.coding-cta h2 {
+  font-size: 36px;
+}
+
+@media (max-width: 1100px) {
+  .coding-shell {
+    width: min(100% - 40px, 960px);
+  }
+
+  .coding-hero__inner {
+    min-height: 500px;
+    grid-template-columns: minmax(0, 1fr) minmax(360px, 0.9fr);
+  }
+
+  .coding-hero__content {
+    padding-left: 40px;
+  }
+
+  .coding-hero__visual {
+    min-height: 500px;
+  }
+
+  .coding-hero__visual img {
+    width: min(650px, 132%);
+    transform: translateX(11%);
+  }
+
+  .coding-section,
+  .coding-skills,
+  .coding-learning {
+    gap: 48px;
+  }
+
+  .coding-section-copy h2,
+  .coding-challenges__intro h2 {
+    font-size: 36px;
+  }
+
+  .coding-section-copy p,
+  .coding-challenges__intro p,
+  .coding-hero p {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .coding-practice-row {
+    font-size: 23px;
+  }
+
+  .coding-challenges {
+    padding: 44px 36px;
+  }
+
+  .coding-challenge-grid {
+    gap: 36px;
+  }
+
+  .coding-challenge-card {
+    padding-right: 120px;
+  }
+
+  .coding-skills {
+    grid-template-columns: minmax(330px, 0.8fr) minmax(0, 1fr);
+    gap: 72px;
+  }
+
+  .coding-learning {
+    grid-template-columns: minmax(0, 0.85fr) minmax(470px, 1.15fr);
+  }
+
+  .coding-video-deck {
+    height: 500px;
+    transform-origin: center center;
+    transform: scale(0.86);
+    margin: 0 auto 24px;
+  }
+
+  .coding-video-controls {
+    position: relative;
+    z-index: 5;
+    margin-top: 24px;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 900px) {
+
+  
+  .coding-video-controls button {
+    width: 80px;
+    height: 80px;
+    padding: 8px;
+    border-radius: 50%;
+    background: var(--coding-bg);
+    box-shadow:
+      inset 6px 6px 12px #c4c4c4,
+      inset -6px -6px 12px #ffffff;
+  }
+
+  .coding-video-controls button::before {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: var(--coding-bg);
+    box-shadow:
+      -6px -6px 12px #ffffff,
+      6px 6px 12px #c6c6c9;
+  }
+
+  .coding-video-controls button img {
+    width: 24px;
+    height: 24px;
+  }
+
+
+
+  
+  .coding-hero__content {
+    transform: translateY(0);
+  }
+
+
+  
+
+  .coding-shell {
+    width: min(100% - 40px, 760px);
+    padding-top: 24px;
+  }
+
+  .coding-hero {
+    padding: 24px;
+  }
+
+  .coding-hero__inner {
+    min-height: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .coding-hero__content {
+    padding: 40px 40px 0;
+    text-align: center;
+  }
+
+  .coding-hero__content .coding-pill {
+    margin-inline: auto;
+  }
+
+  .coding-hero h1 {
+    max-width: 620px;
+    margin-inline: auto;
+  }
+
+  .coding-hero p {
+    margin-inline: auto;
+  }
+
+  .coding-hero__visual {
+    min-height: 390px;
+    justify-content: center;
+  }
+
+  .coding-hero__visual img {
+    width: min(660px, 95%);
+    transform: none;
+  }
+
+  .coding-section,
+  .coding-skills,
+  .coding-learning {
+    margin-top: 72px;
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+
+  .coding-section-copy {
+    text-align: center;
+  }
+
+  .coding-learning .coding-section-copy {
+    padding-top: 0;
+  }
+
+  .coding-section-copy .coding-pill {
+    margin-inline: auto;
+  }
+
+  .coding-section-copy h2,
+  .coding-section-copy p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .coding-practice-card {
+    justify-self: center;
+  }
+
+  .coding-challenge-grid {
+    grid-template-columns: 1fr;
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .coding-skill-list {
+    width: min(100%, 520px);
+    margin: 0 auto;
+  }
+
+  .coding-skill-item {
+    width: 100%;
+  }
+
+  .coding-video-area {
+    max-width: 690px;
+    margin: 0 auto;
+  }
+
+  .coding-video-deck {
+    width: 100%;
+    max-width: 689px;
+    height: 570px;
+    transform: none;
+    transform-origin: center center;
+    margin: 0 auto 28px;
+  }
+
+  .coding-video-controls {
+    position: relative;
+    z-index: 5;
+    margin-top: 0;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .coding-cta {
+    min-height: 440px;
+    margin-top: 72px;
+    padding: 54px;
+    border-radius: 220px;
+  }
+
+  .coding-cta h2 {
+    font-size: 36px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .coding-shell {
+    width: calc(100% - 32px);
+    padding: 18px 0 56px;
+  }
+
+  .coding-breadcrumb {
+    font-size: 14px;
+  }
+
+  .coding-hero {
+    margin-top: 24px;
+    padding: 16px;
+    border-radius: 24px;
+  }
+
+  .coding-hero__inner {
+    border-radius: 14px;
+  }
+
+  .coding-hero__content {
+    padding: 28px 20px 0;
+  }
+
+  .coding-pill {
+    min-height: 42px;
+    padding: 8px 20px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .coding-hero h1 {
+    margin-top: 22px;
+    font-size: 36px;
+    line-height: 1.22;
+  }
+
+  .coding-hero p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .coding-hero__visual {
+    min-height: 310px;
+  }
+
+  .coding-hero__visual img {
+    width: min(560px, 112%);
+  }
+
+  .coding-section,
+  .coding-skills,
+  .coding-learning {
+    margin-top: 56px;
+    gap: 30px;
+  }
+
+  .coding-section-copy h2,
+  .coding-challenges__intro h2 {
+    margin-top: 22px;
+    font-size: 36px;
+    line-height: 1.25;
+  }
+
+  .coding-section-copy p,
+  .coding-challenges__intro p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .coding-practice-card {
+    padding: 20px;
+    border-radius: 24px;
+  }
+
+  .coding-practice-card__inner {
+    min-height: 0;
+    padding: 30px 22px;
+    gap: 24px;
+  }
+
+  .coding-practice-row {
+    gap: 16px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .coding-check-icon {
+    width: 30px;
+    height: 30px;
+    flex-basis: 30px;
+  }
+
+  .coding-challenges {
+    margin-top: 56px;
+    padding: 34px 20px;
+    border-radius: 24px;
+  }
+
+  .coding-challenge-grid {
+    margin-top: 36px;
+    gap: 24px;
+  }
+
+  .coding-challenge-card {
+    min-height: 168px;
+    padding: 24px 86px 24px 22px;
+    align-items: flex-start;
+  }
+
+  .coding-challenge-card__icon {
+    top: 20px;
+    right: 20px;
+    left: auto;
+    width: 58px;
+    height: 58px;
+    padding: 11px;
+    background: #ffffff;
+  }
+
+  .coding-challenge-card__icon img {
+    width: 34px;
+    height: 34px;
+  }
+
+  .coding-challenge-card::before {
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  }
+
+  .coding-challenge-card__copy {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 4px;
+  }
+
+  .coding-challenge-card h3 {
+    max-width: 170px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .coding-challenge-card p {
+    max-width: 190px;
+    margin-top: 12px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .coding-skill-list {
+    gap: 20px;
+  }
+
+  .coding-skill-item {
+    min-height: 62px;
+    padding: 13px 20px;
+    border-radius: 26px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .coding-skill-item img {
+    width: 30px;
+    height: 30px;
+    flex-basis: 30px;
+  }
+
+  .coding-video-deck {
+    height: auto;
+    display: grid;
+    gap: 18px;
+  }
+
+  .coding-video-card,
+  .coding-video-card--back,
+  .coding-video-card--middle,
+  .coding-video-card--front {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 10;
+    position: relative;
+    inset: auto;
+    padding: 14px;
+    border-radius: 20px;
+  }
+
+  .coding-video-card--back {
+    order: 3;
+  }
+
+  .coding-video-card--middle {
+    order: 2;
+  }
+
+  .coding-video-card--front {
+    order: 1;
+  }
+
+  .coding-video-controls {
+    margin-top: 24px;
+    gap: 20px;
+  }
+
+
+  
+  .coding-video-controls button {
+    width: 62px;
+    height: 62px;
+    padding: 7px;
+    border-radius: 50%;
+    background: var(--coding-bg);
+    box-shadow:
+      inset 5px 5px 10px #c4c4c4,
+      inset -5px -5px 10px #ffffff;
+  }
+
+  .coding-video-controls button::before {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: var(--coding-bg);
+    box-shadow:
+      -5px -5px 10px #ffffff,
+      5px 5px 10px #c6c6c9;
+  }
+
+  .coding-video-controls button img {
+    width: 22px;
+    height: 22px;
+  }
+
+
+  .coding-cta {
+    min-height: 390px;
+    margin-top: 56px;
+    padding: 46px 24px;
+    border-radius: 80px;
+  }
+
+  .coding-cta h2 {
+    font-size: 36px;
+    line-height: 1.25;
+  }
+
+  .coding-cta p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .coding-cta__actions {
+    margin-top: 32px;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .coding-cta__actions button {
+    min-width: 170px;
+    height: 56px;
+    padding-inline: 22px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .coding-shell {
+    width: calc(100% - 24px);
+  }
+
+  .coding-breadcrumb {
+    gap: 6px;
+    font-size: 13px;
+  }
+
+  .coding-hero {
+    padding: 12px;
+  }
+
+  .coding-hero__content {
+    padding: 24px 14px 0;
+  }
+
+  .coding-hero h1 {
+    font-size: 36px;
+  }
+
+  .coding-hero__visual {
+    min-height: 260px;
+  }
+
+  .coding-hero__visual img {
+    width: 118%;
+  }
+
+  .coding-section-copy h2,
+  .coding-challenges__intro h2 {
+    font-size: 36px;
+  }
+
+  .coding-practice-card {
+    padding: 14px;
+  }
+
+  .coding-practice-card__inner {
+    padding: 26px 16px;
+  }
+
+  .coding-practice-row {
+    font-size: 16px;
+  }
+
+  .coding-challenges {
+    padding-inline: 8px;
+  }
+
+  .coding-challenge-card {
+    min-height: 132px;
+    padding: 18px 76px 18px 16px;
+    align-items: flex-start;
+    background: #dfe6e9;
+  }
+
+  .coding-challenge-card__icon {
+    top: 50%;
+    right: 12px;
+    left: auto;
+    width: 48px;
+    height: 48px;
+    padding: 9px;
+    background: #dfe6e9;
+    transform: translateY(-50%);
+  }
+
+  .coding-challenge-card__icon img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .coding-challenge-card::before {
+    inset: 0 auto 0 0;
+    width: calc(100% - 52px);
+    height: 100%;
+    clip-path: polygon(0 0, 78% 0, 100% 100%, 0 100%);
+  }
+
+  .coding-challenge-card h3 {
+    max-width: 170px;
+    font-size: 16px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+
+  .coding-challenge-card p {
+    width: 184px;
+    max-width: 184px;
+    margin-top: 8px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .coding-skill-item {
+    min-height: 62px;
+    padding: 12px 16px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .coding-skill-item img {
+    width: 30px;
+    height: 30px;
+    flex: 0 0 30px;
+    align-self: center;
+  }
+
+  .coding-skill-item span {
+    flex: 1 1 auto;
+    min-width: 0;
+    margin: 0;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 20px;
+  }
+
+  .coding-cta {
+    min-height: 420px;
+    padding-inline: 18px;
+    border-radius: 52px;
+  }
+
+  .coding-cta h2 {
+    font-size: 36px;
+  }
+
+  .coding-cta__actions {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .coding-cta__actions button {
+    width: 100%;
+  }
+}
+
+
+
+
+.coding-cta__actions button {
+  background: var(--coding-bg);
+  color: var(--coding-blue);
+
+  
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c6c6c9;
+
+  transition:
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.coding-cta__actions button:hover:not(.is-selected),
+.coding-cta__actions button:not(.is-selected):active {
+  color: var(--coding-blue);
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c6c6c9;
+}
+
+
+.coding-cta__actions button.is-selected,
+.coding-cta__actions button.is-selected:hover,
+.coding-cta__actions button.is-selected:active {
+  color: var(--coding-heading);
+
+  box-shadow:
+    inset -5px -5px 10px #ffffff,
+    inset 5px 5px 10px #c4c4c4;
+}
+
+
+
+
+.coding-cta__actions button:not(.is-selected),
+.coding-cta__actions button:not(.is-selected):hover,
+.coding-cta__actions button:not(.is-selected):focus,
+.coding-cta__actions button:not(.is-selected):active {
+  color: var(--coding-blue);
+  background: var(--coding-bg);
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c6c6c9;
+}
+
+
+.coding-cta__actions button:not(.is-selected):focus-visible {
+  color: var(--coding-blue);
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c6c6c9;
+  outline: 2px solid var(--coding-blue);
+  outline-offset: 4px;
+}
+
+
+.coding-cta__actions button.is-selected,
+.coding-cta__actions button.is-selected:hover,
+.coding-cta__actions button.is-selected:focus,
+.coding-cta__actions button.is-selected:active {
+  color: var(--coding-heading);
+  background: var(--coding-bg);
+  box-shadow:
+    inset -5px -5px 10px #ffffff,
+    inset 5px 5px 10px #c4c4c4;
+}
+
+
+
+
+.coding-cta__actions button {
+  color: var(--coding-blue);
+  background: var(--coding-bg);
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c6c6c9;
+}
+
+.coding-cta__actions button.is-selected {
+  color: var(--coding-heading);
+  box-shadow:
+    inset -5px -5px 10px #ffffff,
+    inset 5px 5px 10px #c4c4c4;
+}
+
+.coding-cta__actions button:not(.is-selected),
+.coding-cta__actions button:not(.is-selected):hover,
+.coding-cta__actions button:not(.is-selected):active {
+  color: var(--coding-blue);
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c6c6c9;
+}
+@media (max-width: 700px) {
+  .coding-video-card video {
+    object-fit: cover !important;
+    object-position: center top !important;
+  }
 }
