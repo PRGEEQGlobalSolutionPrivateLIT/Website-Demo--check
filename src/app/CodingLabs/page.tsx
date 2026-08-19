@@ -1,430 +1,342 @@
 "use client";
 
-import type { NextPage } from "next";
-import { useState } from "react";
 import Image from "next/image";
+import { useState } from "react";
+import Header from "../components/Header/header";
+import Footer from "../components/Footer/footer";
 import "./codingLabs.css";
 
-const NeurolabsCodingLabs: NextPage = () => {
-  const sliderVideos = ["/videos/women-holding-diploma.mp4", "/videos/secondvideo.mp4", "/videos/third.mp4"];
+const practiceItems = [
+  { label: "Write & test code", color: "#BF1869" },
+  { label: "Solve real challenges", color: "#2A7308" },
+  { label: "Explore coding solutions", color: "#67096E" },
+  { label: "Build practical projects", color: "#2D4CC8" },
+];
 
+const challengeCards = [
+  {
+    title: "Apply concepts",
+    text: "Apply coding concepts through guided exercises.",
+    icon: "/icons/codepen.svg",
+    tone: "pink",
+  },
+  {
+    title: "Problem-solving",
+    text: "Improve logical thinking through guided challenges.",
+    icon: "/icons/brain-cog.svg",
+    tone: "teal",
+  },
+  {
+    title: "Code efficiently",
+    text: "Learn cleaner and more effective coding techniques.",
+    icon: "/icons/brace.png",
+    tone: "purple",
+  },
+  {
+    title: "Interview-ready",
+    text: "Build confidence for coding tests and technical assessments.",
+    icon: "/icons/checkmark-circle-02.svg",
+    tone: "blue",
+  },
+];
+
+const skillItems = [
+  { label: "Write clean, efficient code", color: "#2A7308" },
+  { label: "Debug and fix programs", color: "#BF1869" },
+  { label: "Strengthen programming logic", color: "#67096E" },
+  { label: "Build real-world solutions", color: "#2D4CC8" },
+];
+
+const sliderVideos = [
+  "/videos/first.mp4",
+  "/videos/second.mp4",
+  "/videos/third.mp4",
+];
+
+function CheckIcon({ color }: { color: string }) {
+  return (
+    <svg
+      className="coding-check-icon"
+      width="36"
+      height="36"
+      viewBox="0 0 36 36"
+      fill="none"
+      aria-hidden="true"
+    >
+      <path
+        d="M24 4.24813C22.1626 3.44535 20.1333 3 18 3C9.71572 3 3 9.71572 3 18C3 26.2842 9.71572 33 18 33C26.2842 33 33 26.2842 33 18C33 17.4937 32.9749 16.9934 32.9259 16.5"
+        stroke={color}
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12 15.75L17.25 21L33 6"
+        stroke={color}
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export default function CodingLabsPage() {
   const [videoOrder, setVideoOrder] = useState([0, 1, 2]);
 
-  const nextImage = () => {
-    setVideoOrder((prev) => [prev[2], prev[0], prev[1]]);
+  // Nothing is selected initially:
+  // both CTA buttons start raised with blue text.
+  const [activeCta, setActiveCta] =
+    useState<"demo" | "started" | null>(null);
+
+  const previousVideo = () => {
+    setVideoOrder((current) => [current[2], current[0], current[1]]);
   };
 
-  const previousImage = () => {
-    setVideoOrder((prev) => [prev[1], prev[2], prev[0]]);
+  const nextVideo = () => {
+    setVideoOrder((current) => [current[1], current[2], current[0]]);
   };
 
   return (
-    <div className="neurolabsCodingLabs">
-      <div className="frameParent">
-        <div className="frameChild" />
-        <div className="frameGroup">
-          <div className="logo01SynapseSpark1Parent">
-            <div className="frameContainer">
-              <div className="homeParent">
-                <div className="home">Home</div>
-              </div>
-              <div className="homeParent">
-                <div className="home">genZgalaxy</div>
-              </div>
-              <div className="homeParent">
-                <div className="home">NeuroLXP 2.1</div>
-              </div>
-              <div className="neuroLabsParent">
-                <b className="neuroLabs">Neuro Labs</b>
-              </div>
-              <div className="homeParent">
-                <div className="home">Our Customers</div>
-              </div>
-              <div className="homeParent">
-                <div className="home">Features</div>
-              </div>
-              <div className="homeParent">
-                <div className="home">Resources</div>
-              </div>
-            </div>
-          </div>
-          <div className="signInHelpWrapper">
-            <div className="signInHelp">Sign in Help</div>
-          </div>
-        </div>
-      </div>
-      <div className="frameDiv">
-        <div className="neuroLabsWrapper">
-          <div className="codingLabs">Neuro Labs</div>
-        </div>
-        <div className="arrowRightDoubleParent">
-          <Image src="/icons/arrow-right-double.svg" className="arrowDown01Icon" width={16} height={16} sizes="100vw" alt="arrow" />
-          <b className="codingLabs">Coding Labs</b>
-        </div>
-      </div>
-      <div className="image20Parent">
-        <div className="image20" />
-        <div className="image21Parent">
-          <div className="image21" />
-          <Image className="groupYoungBusinesspeopleUsiIcon" src="/images/group-young-businesspeople-using-laptop-meeting 1.png" width={1216} height={555} sizes="100vw" alt="" />
-          <div className="ellipseParent">
-            <div className="frameItem" />
-            <div className="frameWrapper">
-              <div className="frameWrapper2">
-                <div className="frameParent2">
-                  <div className="frameParent3">
-                    <div className="codingMysteryBadge">Coding Mystery</div>
-                    <b className="practiceBuildAnd">
-                      Practice! Build! and
-                      <br />
-                      Master Coding Skills
-                    </b>
-                  </div>
-                  <div className="practiceSolveChallenges">Practice, solve challenges, and master programming through interactive, hands-on coding labs.</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="frameParent4">
-        <div className="frameParent5">
-          <div className="frameParent2">
-            <div className="learnByCodingBadge">Learn by Coding</div>
-            <b className="masterCodingWith">Master Coding with Hands-On Practice</b>
-          </div>
-          <div className="practiceProgrammingThrough">Practice programming through interactive coding labs that turn concepts into real-world skills.</div>
-        </div>
-        <div className="frameWrapper3">
-          <div className="rectangleParent">
-            <div className="rectangleDiv" />
-            <div className="frameChild2" />
-            <div className="frameChild2" />
-            <div className="frameChild2">
-              <div className="frameWrapper5">
-                <div className="writeTestCodeParent">
-                  <div className="writeTestContainer">
-                    <ul className="writeTestCode">
-                      <li className="writeTest">{`Write & test code`}</li>
-                    </ul>
-                  </div>
-                  <div className="writeTestContainer">
-                    <ul className="writeTestCode">
-                      <li className="writeTest">Solve real challenges</li>
-                    </ul>
-                  </div>
-                  <div className="exploreCodingSolutionsContainer">
-                    <ul className="writeTestCode">
-                      <li className="writeTest">Explore coding solutions</li>
-                    </ul>
-                  </div>
-                  <div className="buildPracticalProjectsContainer">
-                    <ul className="writeTestCode">
-                      <li className="writeTest">Build practical projects</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="image20Group">
-        <div className="image202" />
-        <div className="frameParent7">
-          <div className="frameParent8">
-            <div className="frameChild4">What Learners Gain</div>
-            <div className="interactiveCodingChallengesParent">
-              <b className="interactiveCodingChallenges">Interactive Coding Challenges</b>
-              <div className="learnByBuilding">Learn by building, solving, and improving with every challenge.</div>
-            </div>
-          </div>
-          <div className="frameParent9">
-            <div className="frameParent10">
-              <div className="vectorParent">
-                <div className="rectangleIcon"></div>
-                <div className="applyConceptsParent">
-                  <b className="applyConcepts">Apply concepts</b>
-                  <div className="applyCodingConcepts">Apply coding concepts through guided exercises.</div>
-                </div>
-                <Image className="frameChild5" src="/icons/codepen.svg" width={42} height={42} alt="Apply concepts icon" />
-              </div>
-              <div className="vectorGroup">
-                <div className="frameChild6"></div>
-                <Image className="frameChild7" src="/icons/brain-cog.svg" width={42} height={42} alt="Problem solving icon" />
-                <div className="problemSolvingParent">
-                  <b className="problemSolving">Problem-solving</b>
-                  <div className="improveLogicalThinking">Improve logical thinking through guided challenges.</div>
-                </div>
-              </div>
-            </div>
-            <div className="frameParent11">
-              <div className="vectorParent">
-                <div className="frameChild6"></div>
-                <div className="problemSolvingParent">
-                  <b className="codeEfficiently">Code efficiently</b>
-                  <div className="improveLogicalThinking">Learn cleaner and more effective coding techniques.</div>
-                </div>
-                <Image className="frameChild7" src="/icons/code-xml.svg" width={42} height={42} alt="Code efficiently icon" />
-              </div>
-              <div className="vectorGroup">
-                <div className="frameChild6"></div>
-                <div className="problemSolvingParent">
-                  <b className="interviewReady">Interview-ready</b>
-                  <div className="improveLogicalThinking">Build confidence for coding tests and technical assessments.</div>
-                </div>
-                <Image className="frameChild7" src="/icons/checkmark-circle-02.svg" width={42} height={42} alt="Interview ready icon" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="frameParent12">
-        <div className="frameParent13">
-          <div className="frameWrapper6">
-            <div className="checkmarkBadge01Parent">
-              <Image className="skillCheckIcon" src="/icons/checkmark-badge-01.svg" width={36} height={36} alt="Skill check icon" />
-              <div className="writeCleanEfficient">{`Write clean, efficient code `}</div>
-            </div>
-          </div>
-          <div className="frameWrapper7">
-            <div className="checkmarkBadge01Parent">
-              <Image className="skillCheckIcon" src="/icons/checkmark-badge-01.svg" width={36} height={36} alt="Skill check icon" />
-              <div className="writeCleanEfficient">Debug and fix programs</div>
-            </div>
-          </div>
-          <div className="frameWrapper8">
-            <div className="checkmarkBadge01Container">
-              <Image className="skillCheckIcon" src="/icons/checkmark-badge-01.svg" width={36} height={36} alt="Skill check icon" />
-              <div className="writeCleanEfficient">Strengthen programming logic</div>
-            </div>
-          </div>
-          <div className="frameWrapper9">
-            <div className="checkmarkBadge01Parent2">
-              <Image className="skillCheckIcon" src="/icons/checkmark-badge-01.svg" width={36} height={36} alt="Skill check icon" />
-              <div className="writeCleanEfficient">Build real-world solutions</div>
-            </div>
-          </div>
-        </div>
-        <div className="frameParent14">
-          <div className="frameParent15">
-            <div className="codingMysteryBadge">Code Smarter</div>
-            <b className="realWorldSkillDevelopment">
-              <br />
-              Real-World Skill Development
-              <br />
-            </b>
-          </div>
-          <div className="codingLabsSimulate">
-            Coding Labs simulate real-world development, helping learners solve practical programming challenges.
-            <br />
-          </div>
-        </div>
-      </div>
-      <div className="frameParent16">
-        <div className="frameParent17">
-          <div className="frameParent18">
-            <div className="frameParent2">
-              <div className="flexibleLearningBadge">Flexible Learning</div>
-              <b className="builtForEvery">
-                <br />
-                Built for Every Learning Environment
-              </b>
-            </div>
-            <div className="perfectForUniversities">
-              Perfect for universities, bootcamps,
-              <br />
-              corporate training, and online coding programs.
-            </div>
-          </div>
-          <div className="frameParent20">
-            <div className="frameWrapper10">
-              <video className="frameChild14" src={sliderVideos[videoOrder[2]]} muted loop playsInline />
+    <>
+      <Header />
+      <main className="coding-page">
+      <div className="coding-shell">
+        <nav className="coding-breadcrumb" aria-label="Breadcrumb">
+          <span>Neuro Labs</span>
+          <Image
+            src="/icons/arrow-right-double.svg"
+            width={16}
+            height={16}
+            alt=""
+            aria-hidden="true"
+          />
+          <strong aria-current="page">Coding Labs</strong>
+        </nav>
+
+        <section className="coding-hero">
+          <div className="coding-hero__inner">
+            <div className="coding-hero__content">
+              <span className="coding-pill">Coding Mastery</span>
+              <h1>Practice! Build! and Master Coding Skills</h1>
+              <p>Practice, solve challenges, and master coding hands-on.</p>
             </div>
 
-            <div className="frameWrapper11">
-              <video className="frameChild15" src={sliderVideos[videoOrder[1]]} muted loop playsInline />
-            </div>
-
-            <div className="frameWrapper12">
-              <video key={videoOrder[0]} className="frameChild16 slideAnimation" src={sliderVideos[videoOrder[0]]} autoPlay muted loop playsInline />
-            </div>
-          </div>
-        </div>
-        <div className="sliderArrows">
-          <button type="button" className="arrowButton" onClick={previousImage}>
-            <Image src="/icons/arrow-left-02.svg" width={32} height={32} alt="Previous" />
-          </button>
-
-          <button type="button" className="arrowButton" onClick={nextImage}>
-            <Image src="/icons/arrow-right-02.svg" width={32} height={32} alt="Next" />
-          </button>
-        </div>
-      </div>
-      <div className="rectangleGroup">
-        <Image src="/icons/background coding labs.png" width={1280} height={505} className="ctaBackground" alt="" />
-
-        <div className="frameParent22">
-          <div className="neurolabsCodingLabsLearnByParent">
-            <b className="neurolabsCodingLabs2">
-              NeuroLabs Coding Labs Learn by Coding
-              <br />
-            </b>
-            <div className="buildRealWorldCoding">Build real-world coding skills through hands on practice and interactive challenges.</div>
-          </div>
-          <div className="frameParent23">
-            <div className="frameWrapper13">
-              <div className="bookADemo">Book a Demo</div>
-            </div>
-
-            <div className="frameWrapper13">
-              <div className="bookADemo getStartedButton">Get Started</div>
+            <div className="coding-hero__visual">
+              <Image
+                src="/images/image.png"
+                width={740}
+                height={521}
+                alt="Coding learner using a laptop"
+                priority
+              />
             </div>
           </div>
-        </div>
-      </div>
-      <div className="frameParent24">
-        <div className="frameParent25">
-          <div className="frameParent26">
-            <div className="frameParent27">
-              <div className="frameParent28">
-                <div className="logo01SynapseSpark1Group">
-                  <div className="frameParent29">
-                    <div className="onePlatformParent">
-                      <b className="onePlatform">{`One Platform `}</b>
-                    </div>
-                    <div className="onePlatformParent">
-                      <b className="onePlatform">Endless Learning</b>
-                    </div>
-                    <b className="onePlatform">Limitless Growth</b>
-                  </div>
+        </section>
+
+        <section className="coding-section coding-practice">
+          <div className="coding-section-copy">
+            <span className="coding-pill">Learn by Coding</span>
+            <h2>
+  Master Coding with
+  <br />
+  Hands-On Practice
+</h2>
+
+<p>
+  Practice programming through interactive coding
+  <br />
+   labs that turn concepts into real-world skills.
+</p>
+          </div>
+
+          <div className="coding-practice-card">
+            <div className="coding-practice-card__inner">
+              {practiceItems.map((item) => (
+                <div className="coding-practice-row" key={item.label}>
+                  <CheckIcon color={item.color} />
+                  <span>{item.label}</span>
                 </div>
-                <div className="prgeeqGlobalSolutionsPrivatParent">
-                  <b className="prgeeqGlobalSolutions">PRGEEQ Global Solutions Private Limited</b>
-                  <div className="prestigeAtlanta1012Container">
-                    <span>
-                      <b className="blankLine">&nbsp;</b>
-                      <span className="blankLine">
-                        Prestige Atlanta, 10/12, 80 Feet Rd, 1A Block,
-                        <br />
-                        Koramangala, Bengaluru, - 560034
-                        <br />
-                        Karnataka, India.
-                      </span>
-                    </span>
-                  </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="coding-challenges">
+          <div className="coding-challenges__intro">
+            <span className="coding-pill coding-pill--wide">What Learners Gain</span>
+            <h2>Interactive Coding Challenges</h2>
+            <p>Learn by building, solving, and improving with every challenge.</p>
+          </div>
+
+          <div className="coding-challenge-grid">
+            {challengeCards.map((card) => (
+              <article
+                className={`coding-challenge-card coding-challenge-card--${card.tone}`}
+                key={card.title}
+              >
+                <div className="coding-challenge-card__copy">
+                  <h3>{card.title}</h3>
+                  <p>{card.text}</p>
                 </div>
+                <div className="coding-challenge-card__icon">
+                  <Image src={card.icon} width={42} height={42} alt="" />
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="coding-section coding-skills">
+          <div className="coding-skill-list">
+            {skillItems.map((item) => (
+              <div
+                className="coding-skill-item"
+                style={{ "--skill-color": item.color } as React.CSSProperties}
+                key={item.label}
+              >
+                <Image
+                  src="/icons/checkmark-badge-01.svg"
+                  width={36}
+                  height={36}
+                  alt=""
+                />
+                <span>{item.label}</span>
               </div>
-              <div className="frameParent30">
-                <div className="frameParent31">
-                  <div className="aboutUsParent">
-                    <b className="aboutUs">{`About us `}</b>
-                    <div className="ourMissionParent">
-                      <div className="ourMission">Our Mission</div>
-                      <div className="ourMission">{`Our Vision `}</div>
-                      <div className="ourMission">Our Story</div>
-                      <div className="ourMission">Our Team</div>
-                    </div>
-                  </div>
-                  <div className="quickLinksParent">
-                    <b className="quickLinks">Quick Links</b>
-                    <div className="ourMissionParent">
-                      <div className="ourMission">Privacy Policy</div>
-                      <div className="ourMission">Terms of use</div>
-                      <div className="ourMission">Terms of Declaration</div>
-                    </div>
-                  </div>
-                  <div className="neurolxpParent">
-                    <b className="neurolxp">{`NeuroLXP  `}</b>
-                    <div className="ourCustomersGroup">
-                      <div className="ourMission">Our Customers</div>
-                      <div className="ourMission">Smart Learning Paths</div>
-                      <div className="smartContentCreation">Smart Content Creation</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="frameParent32"></div>
+            ))}
+          </div>
+
+          <div className="coding-section-copy">
+            <span className="coding-pill">Code Smarter</span>
+            <h2>Real-World Skill Development</h2>
+            <p>
+              Coding Labs simulate real-world development, helping learners
+              solve practical programming challenges.
+            </p>
+          </div>
+        </section>
+
+        <section className="coding-section coding-learning">
+          <div className="coding-section-copy">
+            <span className="coding-pill">Flexible Learning</span>
+            <h2>Built for Every<br />Learning Environment</h2>
+            <p>
+              Perfect for universities, bootcamps, corporate training, and
+              online coding programs.
+            </p>
+          </div>
+
+          <div className="coding-video-area">
+            <div className="coding-video-deck">
+              <div className="coding-video-card coding-video-card--back">
+                <video
+                  key={`back-${videoOrder[2]}`}
+                  className={videoOrder[2] === 0 ? "coding-first-video" : undefined}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                >
+                  <source src={sliderVideos[videoOrder[2]]} type="video/mp4" />
+                </video>
+              </div>
+
+              <div className="coding-video-card coding-video-card--middle">
+                <video
+                  key={`middle-${videoOrder[1]}`}
+                  className={videoOrder[1] === 0 ? "coding-first-video" : undefined}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                >
+                  <source src={sliderVideos[videoOrder[1]]} type="video/mp4" />
+                </video>
+              </div>
+
+              <div className="coding-video-card coding-video-card--front">
+                <video
+                  key={`front-${videoOrder[0]}`}
+                  className={videoOrder[0] === 0 ? "coding-first-video" : undefined}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                >
+                  <source src={sliderVideos[videoOrder[0]]} type="video/mp4" />
+                </video>
               </div>
             </div>
-            <div className="copyright2026">Copyright @2026 | Prgeeq Global Solutions Pvt Ltd | All right reserved</div>
-          </div>
-          <div className="frameWrapper14">
-            <div className="frameParent26">
-              <div className="frameParent27">
-                <div className="frameParent28">
-                  <div className="logo01SynapseSpark1Group">
-                    <div className="frameParent29">
-                      <div className="onePlatformParent">
-                        <b className="onePlatform">{`One Platform `}</b>
-                      </div>
-                      <div className="onePlatformParent">
-                        <b className="onePlatform">Endless Learning</b>
-                      </div>
-                      <b className="onePlatform">Limitless Growth</b>
-                    </div>
-                  </div>
-                  <div className="prgeeqGlobalSolutionsPrivatParent">
-                    <b className="prgeeqGlobalSolutions">Prgeeq Global Solutions Private Limited</b>
-                    <div className="prestigeAtlanta1012Container">
-                      <span>
-                        <b className="blankLine">&nbsp;</b>
-                        <span className="blankLine">
-                          Prestige Atlanta, 10/12, 80 Feet Rd, 1A Block,
-                          <br />
-                          Koramangala, Bengaluru, - 560034
-                          <br />
-                          Karnataka, India.
-                        </span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="frameParent37">
-                  <div className="frameParent38">
-                    <div className="aboutUsParent">
-                      <b className="aboutUs">{`About us `}</b>
-                      <div className="ourMissionGroup">
-                        <div className="ourMission">Our Mission</div>
-                        <div className="ourMission">{`Our Vision `}</div>
-                        <div className="ourMission">Our Story</div>
-                        <div className="ourMission">Our Team</div>
-                      </div>
-                    </div>
-                    <div className="quickLinksParent">
-                      <b className="quickLinks">Quick Links</b>
-                      <div className="ourMissionGroup">
-                        <div className="ourMission">Privacy Policy</div>
-                        <div className="ourMission">Terms of use</div>
-                        <div className="ourMission">Terms of Declaration</div>
-                      </div>
-                    </div>
-                    <div className="neurolxpParent">
-                      <div className="neurolxpGroup">
-                        <b className="neurolxp2">
-                          <span className="neurolxpTxt">
-                            <span className="neurolxp3">{`NeuroLXP `}</span>
-                            <span className="span">{` `}</span>
-                          </span>
-                        </b>
-                        <b className="tm">TM</b>
-                      </div>
-                      <div className="ourCustomersContainer">
-                        <div className="ourMission">Our Customers</div>
-                        <div className="ourMission">Smart Learning Paths</div>
-                        <div className="smartContentCreation">Smart Content Creation</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="frameParent40"></div>
-                </div>
-              </div>
-              <div className="copyright2026">Copyright @2026 | Prgeeq Global Solutions Pvt Ltd | All right reserved</div>
+
+            <div className="coding-video-controls">
+              <button type="button" onClick={previousVideo} aria-label="Previous video">
+                <Image
+                  src="/icons/arrow-left-02.svg"
+                  width={32}
+                  height={32}
+                  alt=""
+                />
+              </button>
+              <button type="button" onClick={nextVideo} aria-label="Next video">
+                <Image
+                  src="/icons/arrow-right-02.svg"
+                  width={32}
+                  height={32}
+                  alt=""
+                />
+              </button>
             </div>
           </div>
-        </div>
+        </section>
+
+        <section className="coding-cta">
+          <Image
+            className="coding-cta__background"
+            src="/icons/background coding labs.png"
+            width={1280}
+            height={505}
+            alt=""
+          />
+
+          <div className="coding-cta__content">
+            <h2>NeuroLabs Coding Labs Learn by Coding</h2>
+            <p>
+              Build real-world coding skills through hands on practice and
+              interactive challenges.
+            </p>
+
+            <div className="coding-cta__actions">
+              <button
+                type="button"
+                className={activeCta === "demo" ? "is-selected" : ""}
+                onClick={() => setActiveCta("demo")}
+                onMouseLeave={() => setActiveCta(null)}
+                onBlur={() => setActiveCta(null)}
+                aria-pressed={activeCta === "demo"}
+              >
+                Book a Demo
+              </button>
+
+              <button
+                type="button"
+                className={activeCta === "started" ? "is-selected" : ""}
+                onClick={() => setActiveCta("started")}
+                onMouseLeave={() => setActiveCta(null)}
+                onBlur={() => setActiveCta(null)}
+                aria-pressed={activeCta === "started"}
+              >
+                Get Started
+              </button>
+            </div>
+          </div>
+        </section>
       </div>
-    </div>
+    </main>
+
+    <Footer />
+  </>
   );
-};
-
-export default NeurolabsCodingLabs;
+}
